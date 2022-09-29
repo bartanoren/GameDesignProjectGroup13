@@ -1,0 +1,1444 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'en' Physical Memory: 16189 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/20203641/GitHub/GameDesignProjectGroup13/Project Grid
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61383
+Successfully changed project path to: C:/Users/20203641/GitHub/GameDesignProjectGroup13/Project Grid
+C:/Users/20203641/GitHub/GameDesignProjectGroup13/Project Grid
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 203.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/20203641/GitHub/GameDesignProjectGroup13/Project Grid/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1cba)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.14.7334
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009184 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 184.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (185ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\20203641\GitHub\GameDesignProjectGroup13\Project Grid\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\20203641\GitHub\GameDesignProjectGroup13\Project Grid\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2007ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1658ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (514ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.4 MB). Loaded Objects now: 5313.
+Memory consumption went from 260.7 MB to 259.3 MB.
+Total: 8.064200 ms (FindLiveObjects: 0.876600 ms CreateObjectMapping: 1.232700 ms MarkObjects: 5.278000 ms  DeleteObjects: 0.675000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 603899.760028 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_554.asset
+  artifactKey: Guid(91eb3802ce8a0c548bd0ae2d1469c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_554.asset using Guid(91eb3802ce8a0c548bd0ae2d1469c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a542341818a1a0e5ed8532000e26704') in 0.109968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_673.asset
+  artifactKey: Guid(48705c44c21e45649b48199f3afc82ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_673.asset using Guid(48705c44c21e45649b48199f3afc82ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca74f9a589c0a6bae98c8c9a6a7269c3') in 0.022456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_653.asset
+  artifactKey: Guid(a0bd29a3b232d094e8b5a9ef9dfe6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_653.asset using Guid(a0bd29a3b232d094e8b5a9ef9dfe6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb84d61135ff6634c84fda56380b793') in 0.020255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_52.asset
+  artifactKey: Guid(785211efcacce874ab599d4a12d83ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_52.asset using Guid(785211efcacce874ab599d4a12d83ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac20539a61b9e57de769a4e751ade93') in 0.018266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_260.asset
+  artifactKey: Guid(48c72a55e5d4b344587d1a134e190a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_260.asset using Guid(48c72a55e5d4b344587d1a134e190a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a98e04e9ef34f4a620071681b869ad8') in 0.023686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_510.asset
+  artifactKey: Guid(26ee71a3629a42049af30f63b469c271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_510.asset using Guid(26ee71a3629a42049af30f63b469c271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289d58914b57bc7f861a23cfe554d9c6') in 0.027461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_793.asset
+  artifactKey: Guid(54e90b60db5c30c43aeb67aa7094e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_793.asset using Guid(54e90b60db5c30c43aeb67aa7094e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfd5952ea7a6a0df8750934879357da') in 0.024257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_54.asset
+  artifactKey: Guid(9dcddb6ec1a5c8d46aea87ba58b2e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_54.asset using Guid(9dcddb6ec1a5c8d46aea87ba58b2e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522a53361ed8fed13f322bae5be03c10') in 0.014785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_918.asset
+  artifactKey: Guid(6ca3b74055940c84e942e4a0eac0637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_918.asset using Guid(6ca3b74055940c84e942e4a0eac0637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c37fd8f3467556962f9f46cfba3f49') in 0.018440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_634.asset
+  artifactKey: Guid(bbe20e675f083224fae96a528bf2a151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_634.asset using Guid(bbe20e675f083224fae96a528bf2a151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5c581a1b95f6b079c61b0e54d5544b') in 0.018406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_128.asset
+  artifactKey: Guid(c5d42fc3e1e893646bfe10013989df33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_128.asset using Guid(c5d42fc3e1e893646bfe10013989df33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63ccfee4d7f41b0a05c7f559cf46977') in 0.017142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_1016.asset
+  artifactKey: Guid(36b47b095aa04e24b8b039ed3dc99787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_1016.asset using Guid(36b47b095aa04e24b8b039ed3dc99787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef0da38d620777623d974461190e8f6') in 0.018199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_677.asset
+  artifactKey: Guid(33257e0ff67cb194dbe995c19e26d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_677.asset using Guid(33257e0ff67cb194dbe995c19e26d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a899cd0c66fbe94aa007e20ad2ef5dbd') in 0.021590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_703.asset
+  artifactKey: Guid(044f4676c4234f84aa817513fbc07e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_703.asset using Guid(044f4676c4234f84aa817513fbc07e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b242fbeba11f339edc59ecb20a64438') in 0.020281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_475.asset
+  artifactKey: Guid(ed4aff5cec2a75241ab3b64805e6d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_475.asset using Guid(ed4aff5cec2a75241ab3b64805e6d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266bca4c8ed4a1bb25da1915e5cf53cf') in 0.024971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_350.asset
+  artifactKey: Guid(00ddb89c1a4460f4984d1ea4432aa36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_350.asset using Guid(00ddb89c1a4460f4984d1ea4432aa36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1730778855dac62576f080fa85b608b1') in 0.019972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_65.asset
+  artifactKey: Guid(b3922ff2d19b54e4abda03b369e1bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_65.asset using Guid(b3922ff2d19b54e4abda03b369e1bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401461f97dee1988d97b9a8f9a4898a4') in 0.017246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_791.asset
+  artifactKey: Guid(55a196bcfc462d54bab2cdf029c0bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_791.asset using Guid(55a196bcfc462d54bab2cdf029c0bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad566f50595c82ded99ef01707d0775') in 0.023614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_314.asset
+  artifactKey: Guid(7ecf7e322b67ec041bba4f796049daa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_314.asset using Guid(7ecf7e322b67ec041bba4f796049daa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4984a45325c39be6f1249dac7d190a92') in 0.017156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_218.asset
+  artifactKey: Guid(044b9ec8b2053b24a8b559b47bae1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_218.asset using Guid(044b9ec8b2053b24a8b559b47bae1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54a49a8b8e3e909c34ac193cc868dec') in 0.022179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_456.asset
+  artifactKey: Guid(0b2b28382088d2349a92779d01e9138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_456.asset using Guid(0b2b28382088d2349a92779d01e9138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5002d5143eb0ee03b891b49114107996') in 0.020744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_974.asset
+  artifactKey: Guid(152d7d614e030d24481768f65d49aae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_974.asset using Guid(152d7d614e030d24481768f65d49aae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059ab07d87ada600a7dcefd9e1fce7d8') in 0.022292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_14.asset
+  artifactKey: Guid(58de7041ee70411409f754cc8d50acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_14.asset using Guid(58de7041ee70411409f754cc8d50acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38740806c4fbc1d49f1b332d5264dd4') in 0.017746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_154.asset
+  artifactKey: Guid(b602b6242e9dc944fa39d48d30cc5af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_154.asset using Guid(b602b6242e9dc944fa39d48d30cc5af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98ba26582a6a3d78b2321a55d4cf339') in 0.017425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_844.asset
+  artifactKey: Guid(36092246b07a4434ebe8163d7be9a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_844.asset using Guid(36092246b07a4434ebe8163d7be9a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007bfc5dc9ebb4e523d190bdf51e93c0') in 0.021037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_282.asset
+  artifactKey: Guid(ac83a64299a96e84080aae34c55cebe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_282.asset using Guid(ac83a64299a96e84080aae34c55cebe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68038d2a8282b965fa4be1d1f0e3656') in 0.021123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_979.asset
+  artifactKey: Guid(38bcf9a01d76a524a813aa581d15f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_979.asset using Guid(38bcf9a01d76a524a813aa581d15f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8006e567aa75b9ad079efcfcc7e97e') in 0.018734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_905.asset
+  artifactKey: Guid(66c5d3bb24e00c64c9b3efbef8bca749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_905.asset using Guid(66c5d3bb24e00c64c9b3efbef8bca749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab746a96c0e8d3527a926af1358944b7') in 0.022259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_735.asset
+  artifactKey: Guid(b7e8324a760bd6e4698a68edb9217e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_735.asset using Guid(b7e8324a760bd6e4698a68edb9217e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2f140cbc0fb6d55e7841833cee978c') in 0.020908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_188.asset
+  artifactKey: Guid(87073ad11c164f04ab227f429943a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_188.asset using Guid(87073ad11c164f04ab227f429943a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b112b0e525c174074c1aa84c75f6dcb9') in 0.024986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_178.asset
+  artifactKey: Guid(5fc0a26381ec83f4eb9a51c05a938840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_178.asset using Guid(5fc0a26381ec83f4eb9a51c05a938840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabb00234181807f234bed7ee30019cf') in 0.015774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_76.asset
+  artifactKey: Guid(aa7030be6ed85f4438cc4f250c2cc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_76.asset using Guid(aa7030be6ed85f4438cc4f250c2cc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c63c8f3058a47ffc18ac12e0b7aa06') in 0.017981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_794.asset
+  artifactKey: Guid(9bca87c504389b14a8f584a101f69111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_794.asset using Guid(9bca87c504389b14a8f584a101f69111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cbf6f0a03f02af407e612adbb47b13') in 0.020105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_854.asset
+  artifactKey: Guid(a9b44bfa854331a40939dde3dc6a2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_854.asset using Guid(a9b44bfa854331a40939dde3dc6a2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a140d3aa2fe44f7051da2b831dc995') in 0.021060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_961.asset
+  artifactKey: Guid(2e70af01caf8fa4489f02a791de93343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_961.asset using Guid(2e70af01caf8fa4489f02a791de93343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52061708a37a39c944d3b235bed1b79') in 0.021611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_306.asset
+  artifactKey: Guid(00f8e842cc8d4544790bea51079626c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_306.asset using Guid(00f8e842cc8d4544790bea51079626c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de70523f2ffdc9db5a93303cac4bce4b') in 0.022728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_221.asset
+  artifactKey: Guid(14c9cf54bcf8fe144901e665e32a45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_221.asset using Guid(14c9cf54bcf8fe144901e665e32a45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7087ab8d95d44dfd4b5ca78260e4ded') in 0.018922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_285.asset
+  artifactKey: Guid(e599d74f2a96ca94aaa970457fda6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_285.asset using Guid(e599d74f2a96ca94aaa970457fda6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaf7dd8dc0744f58da32aaee32b2016') in 0.018337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_127.asset
+  artifactKey: Guid(5a051572671961b4191296d52e8b053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_127.asset using Guid(5a051572671961b4191296d52e8b053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20541a540d37efd2736ce2c89c773782') in 0.016857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_281.asset
+  artifactKey: Guid(5b28e6e19d24a7a4fa0c3322cd9328ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_281.asset using Guid(5b28e6e19d24a7a4fa0c3322cd9328ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57aba780041063de699565f844b3a15') in 0.018686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_66.asset
+  artifactKey: Guid(6348175010b9b69498547fb6219cf4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_66.asset using Guid(6348175010b9b69498547fb6219cf4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d99e8bd7be73473da554f85586bcd2d') in 0.014943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_815.asset
+  artifactKey: Guid(ec8b0200f925a3341b7766b85af83fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_815.asset using Guid(ec8b0200f925a3341b7766b85af83fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9819efc805012f9c2357e79c9709a160') in 0.019206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_750.asset
+  artifactKey: Guid(1accd71cb9d0ee244aec7d62e1dbc91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_750.asset using Guid(1accd71cb9d0ee244aec7d62e1dbc91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c9e27be5eb4151fd3ffd4a64236a67') in 0.020911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_326.asset
+  artifactKey: Guid(90ae6493a65883049824658c2e33638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_326.asset using Guid(90ae6493a65883049824658c2e33638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b8586d952fe1008a706f2c8ca91daf') in 0.018406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_976.asset
+  artifactKey: Guid(f3a17b869753488478bee293cc09b40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_976.asset using Guid(f3a17b869753488478bee293cc09b40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede2728dd284d98ae6e7b2f748bb67c') in 0.019351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_1006.asset
+  artifactKey: Guid(599110a35250f904cacbbdeb738d21f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_1006.asset using Guid(599110a35250f904cacbbdeb738d21f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d97b348d09c4996802d8ba13487c1fe') in 0.016152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_35.asset
+  artifactKey: Guid(3b46a68124d937b4ca75727ff9a6ca82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_35.asset using Guid(3b46a68124d937b4ca75727ff9a6ca82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bcbced2ccaca1cab8333c729dd7f1c') in 0.015792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_160.asset
+  artifactKey: Guid(1e23a1a92b7cd4d4e9725da41dc133e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_160.asset using Guid(1e23a1a92b7cd4d4e9725da41dc133e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb76a0166d2deef69eb262b3b9168cdb') in 0.015017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_987.asset
+  artifactKey: Guid(b447a347dbc5cdd45a3fbee1cc36b130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_987.asset using Guid(b447a347dbc5cdd45a3fbee1cc36b130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de30276e89852fc260342a9b5d6436b1') in 0.015301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_598.asset
+  artifactKey: Guid(702375aa86c32d648be68f1f62692609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_598.asset using Guid(702375aa86c32d648be68f1f62692609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1284343f07ec15162df180b31cc0bb') in 0.019635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_80.asset
+  artifactKey: Guid(7363d5ac378de6842ba82279212a1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_80.asset using Guid(7363d5ac378de6842ba82279212a1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e749aca7d893e3cafc17193e2b50509') in 0.018664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_200.asset
+  artifactKey: Guid(22e44b4a57add584aa6006b09d99a2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_200.asset using Guid(22e44b4a57add584aa6006b09d99a2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08120b87c969cc945f43ffc30d897ea9') in 0.015977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_8.asset
+  artifactKey: Guid(c38583112d81f704b801baa195c60489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_8.asset using Guid(c38583112d81f704b801baa195c60489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf8780cebad3e262838b32053c648a0') in 0.016029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_950.asset
+  artifactKey: Guid(e34f8fb2635e3074bba23e4cd248890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_950.asset using Guid(e34f8fb2635e3074bba23e4cd248890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24341b03386505527a32b896ea754407') in 0.020911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_224.asset
+  artifactKey: Guid(ec79b3960ff1cd64e9ddbb46787da021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_224.asset using Guid(ec79b3960ff1cd64e9ddbb46787da021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3b660c13605b5af52054c3c6870557') in 0.015663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_719.asset
+  artifactKey: Guid(670c4362358fd124aa5a30f9eddb8227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_719.asset using Guid(670c4362358fd124aa5a30f9eddb8227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab894d8b2c1e02f4d2ac9ffc49d2c435') in 0.018419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_165.asset
+  artifactKey: Guid(9039eb3e064c2744bbda63c0ad9ab59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_165.asset using Guid(9039eb3e064c2744bbda63c0ad9ab59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1534582a86f68bcdf72488b3f829e80d') in 0.018270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_909.asset
+  artifactKey: Guid(a839e7b0555b0e34da7f5c196ad9826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_909.asset using Guid(a839e7b0555b0e34da7f5c196ad9826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec35795b6e25b47879139b8987f5d8ee') in 0.018906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_661.asset
+  artifactKey: Guid(621a1b45b80059e48b05bc6977f60cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_661.asset using Guid(621a1b45b80059e48b05bc6977f60cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a2f8c06e9d639a594e0c4d5c5502fb') in 0.023921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_198.asset
+  artifactKey: Guid(a22df3640499bc4429feb9756f7a7496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_198.asset using Guid(a22df3640499bc4429feb9756f7a7496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe465a585123c62d58c509a08051ffe') in 0.015706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_169.asset
+  artifactKey: Guid(ae8e18bb49294cf419fc1727e544773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_169.asset using Guid(ae8e18bb49294cf419fc1727e544773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f163f71998f65057d91fa3ff0ace93b2') in 0.019661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_857.asset
+  artifactKey: Guid(be23fe9e3ac0dc04990ce0bb21fc47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_857.asset using Guid(be23fe9e3ac0dc04990ce0bb21fc47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6680513d13c41ca3cb2e2a38e6fc4db') in 0.018804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_836.asset
+  artifactKey: Guid(7ada602a25d5be842b1e1fd5a5cf8156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_836.asset using Guid(7ada602a25d5be842b1e1fd5a5cf8156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f84e1867f2aeecab808fd4a00d08d5f') in 0.018548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_710.asset
+  artifactKey: Guid(dfbf2253bbd8fd24dac86cf18570e426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_710.asset using Guid(dfbf2253bbd8fd24dac86cf18570e426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe769dc5593b8d26a42a95c73e83551') in 0.018757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_167.asset
+  artifactKey: Guid(34a9f6542e776fc4381903f97ffbb58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_167.asset using Guid(34a9f6542e776fc4381903f97ffbb58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d7d1242178f42ccf6425b5ea868783') in 0.017425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_613.asset
+  artifactKey: Guid(91b236178e8a22f4aab0de2cbbb2bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_613.asset using Guid(91b236178e8a22f4aab0de2cbbb2bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4105a560994dc91a96e579bac6aa603') in 0.017745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_713.asset
+  artifactKey: Guid(6cee9159cf49ff34ebb2a90d0a9ecd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_713.asset using Guid(6cee9159cf49ff34ebb2a90d0a9ecd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f735c69519650b7addda802adffde8cd') in 0.020171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_78.asset
+  artifactKey: Guid(d55db182bc7cb5c469df5841a0b44c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_78.asset using Guid(d55db182bc7cb5c469df5841a0b44c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff4f29ad0350d6ffc34772c4614b50b') in 0.015739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_115.asset
+  artifactKey: Guid(8fcb654aa487144458d265a8d37d948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_115.asset using Guid(8fcb654aa487144458d265a8d37d948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff772ec73d1e065d37508c6540fa82ca') in 0.017640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_186.asset
+  artifactKey: Guid(f9620038d13b4374892da18f03168905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_186.asset using Guid(f9620038d13b4374892da18f03168905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d60453dec60508f706bdd26473b774') in 0.016110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_746.asset
+  artifactKey: Guid(90689288aa726314087a9b0d29caf56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_746.asset using Guid(90689288aa726314087a9b0d29caf56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eab03ab1a45da9bf033a3fde0ecdfc7') in 0.022106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_578.asset
+  artifactKey: Guid(bf081ff7afbce7040bc2f77f539b990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_578.asset using Guid(bf081ff7afbce7040bc2f77f539b990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7c3f25aad6dd04b581c5745214e0b8') in 0.019692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_439.asset
+  artifactKey: Guid(6c590cd395ab3bc49a30adb53ef40905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_439.asset using Guid(6c590cd395ab3bc49a30adb53ef40905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b658592fe0de0ff078fb944ac6f2920') in 0.019071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_152.asset
+  artifactKey: Guid(f41d5172ece050d45bf3e7086b74e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_152.asset using Guid(f41d5172ece050d45bf3e7086b74e282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b30dd5e5b76ac566662c8808d0bea1') in 0.018146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_566.asset
+  artifactKey: Guid(02d4fd951ee42304499edb3f37495100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_566.asset using Guid(02d4fd951ee42304499edb3f37495100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92589e9598d21d80eb454079f5794dc1') in 0.017023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_488.asset
+  artifactKey: Guid(8808dec6e03a48a47aa4415632e89faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_488.asset using Guid(8808dec6e03a48a47aa4415632e89faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77b2299a6ead45e909f2f98d72f8c69') in 0.018580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_149.asset
+  artifactKey: Guid(e8a1e45a965dea94786ae5f2d32481f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_149.asset using Guid(e8a1e45a965dea94786ae5f2d32481f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb07cefd05ef2b3f3f6c0f9bf13d585') in 0.017080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_889.asset
+  artifactKey: Guid(dfa2d608888fc5143b380644b43b8f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_889.asset using Guid(dfa2d608888fc5143b380644b43b8f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0455f6b2bf796932d3e1ffdccd387ba') in 0.017879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_174.asset
+  artifactKey: Guid(d2f896a734944c54c8037c046f4aecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_174.asset using Guid(d2f896a734944c54c8037c046f4aecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e014d56ef77561276fcc566f6f4b6cd') in 0.017126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_929.asset
+  artifactKey: Guid(78890cf08f5b53141af99d567f49edcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_929.asset using Guid(78890cf08f5b53141af99d567f49edcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217874bfe3bac7bf9946167a7b2672f2') in 0.020212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_198.asset
+  artifactKey: Guid(ae57650671e58a5498e734ef6bc1b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_198.asset using Guid(ae57650671e58a5498e734ef6bc1b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074567df0139a3df52cf21b5d065fb9d') in 0.020246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_803.asset
+  artifactKey: Guid(3b4475487fb74794f9a5094dd40845e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_803.asset using Guid(3b4475487fb74794f9a5094dd40845e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf10798a20f37d6a74c1940f5e0b6a3') in 0.018643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_389.asset
+  artifactKey: Guid(6fe1a948bbe0e0c4eb76129cfca388c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_389.asset using Guid(6fe1a948bbe0e0c4eb76129cfca388c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d68943e0a679fe90035f8d430216641') in 0.019640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_227.asset
+  artifactKey: Guid(95cf596e43c497343899817a171ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_227.asset using Guid(95cf596e43c497343899817a171ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ec51940352e928a311918ebb68a052') in 0.018589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_162.asset
+  artifactKey: Guid(83ec95593d54b1e48bcc6dbb6a59735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_162.asset using Guid(83ec95593d54b1e48bcc6dbb6a59735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9f7685d1974e77f6d0fdc6116acbf4') in 0.017050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_323.asset
+  artifactKey: Guid(3cc809aabd1c35345adfd48dd1e78232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_323.asset using Guid(3cc809aabd1c35345adfd48dd1e78232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936666cbe020051b67a91ef3e42a2721') in 0.019741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_807.asset
+  artifactKey: Guid(3b615013c2c9bd8498b5cffe3c088ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_807.asset using Guid(3b615013c2c9bd8498b5cffe3c088ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfb58f1270742364194b74005e9fce0') in 0.021082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_113.asset
+  artifactKey: Guid(7acefb5019788934fa937dd07ce514fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_113.asset using Guid(7acefb5019788934fa937dd07ce514fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24082429163afdd920191ca7a59ba29e') in 0.015628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_184.asset
+  artifactKey: Guid(d923dc3410b9fbc44a21ff110d531e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_184.asset using Guid(d923dc3410b9fbc44a21ff110d531e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244001f75db974e2cf9cc77ff2d2d1a') in 0.017779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_429.asset
+  artifactKey: Guid(bad283ccb5cdc84459c668958de5ce5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_429.asset using Guid(bad283ccb5cdc84459c668958de5ce5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdced563dc2a09d858dbc8644133b81') in 0.019331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_116.asset
+  artifactKey: Guid(47dfffb1e22ceec45b1766d0d1d203a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_116.asset using Guid(47dfffb1e22ceec45b1766d0d1d203a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbf3c830e3d9c08e04c4c859be185b4') in 0.019766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_739.asset
+  artifactKey: Guid(f657fd6eec232c44bb3a613926dae8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_739.asset using Guid(f657fd6eec232c44bb3a613926dae8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b66b9b4e20b99321f898e4a874a006a') in 0.024261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_485.asset
+  artifactKey: Guid(a6601ed71e083804589100cf1fd32c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_485.asset using Guid(a6601ed71e083804589100cf1fd32c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36e4ec4522b2e530d2429a0dc6769f7') in 0.017921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_518.asset
+  artifactKey: Guid(0721459d23c184241b4aa1b9feaa969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_518.asset using Guid(0721459d23c184241b4aa1b9feaa969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955412586a354e863bf83ca3954f69af') in 0.022502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_143.asset
+  artifactKey: Guid(d9a9b53dda57426489e5dd0a4e9b303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_143.asset using Guid(d9a9b53dda57426489e5dd0a4e9b303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e3217fe2a1534a426d1ff86183c295') in 0.018797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_351.asset
+  artifactKey: Guid(868a0a5fede294c4fbc54c893458fafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_351.asset using Guid(868a0a5fede294c4fbc54c893458fafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b868b7ca0a584e6c5028327e04e583c') in 0.019422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_564.asset
+  artifactKey: Guid(0fe0311db7770994d8200918047e0b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_564.asset using Guid(0fe0311db7770994d8200918047e0b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f79d75c94d72f90215ffbfb66c0c0') in 0.018888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_517.asset
+  artifactKey: Guid(ac0828fa28951324fa12867fb0149292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_517.asset using Guid(ac0828fa28951324fa12867fb0149292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132b5096a6d3641ce29aa4e2928deacd') in 0.021841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_722.asset
+  artifactKey: Guid(2aecc69c36d0e784b9e351bf7af72004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_722.asset using Guid(2aecc69c36d0e784b9e351bf7af72004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16b4de1470c2c6369766637a1d829cc') in 0.017800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_153.asset
+  artifactKey: Guid(a5a9b3965b0127c47a8ebafb1fa04b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_153.asset using Guid(a5a9b3965b0127c47a8ebafb1fa04b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eef380a71eb41fd43b4b90cd91962bc') in 0.017538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_419.asset
+  artifactKey: Guid(e486c8794c9a9bb41a96abb27adbeabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_419.asset using Guid(e486c8794c9a9bb41a96abb27adbeabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a4598a15e5e9affa3402f81dd461eb') in 0.021677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_207.asset
+  artifactKey: Guid(de9057bc8a63e7c499eceb026283d09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_207.asset using Guid(de9057bc8a63e7c499eceb026283d09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad596a3f220e6553b1c53ebc93190a8') in 0.019964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_113.asset
+  artifactKey: Guid(471716181b369b54eaf1a5d04441ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_113.asset using Guid(471716181b369b54eaf1a5d04441ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa72e2500d8f42fd00bb9d5dcc98e492') in 0.018327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_477.asset
+  artifactKey: Guid(1b652625bd699394cba8bdbaf8053f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_477.asset using Guid(1b652625bd699394cba8bdbaf8053f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c9295088b6955fd171afc0d6fb6f3b') in 0.021079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_858.asset
+  artifactKey: Guid(fe6a4bfc745ee3140ad2daef6cb5f222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_858.asset using Guid(fe6a4bfc745ee3140ad2daef6cb5f222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a587d68ccb90541f36ed5defb91d2bc') in 0.019650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_75.asset
+  artifactKey: Guid(e3fef7ba242c04142bb16cd667d77b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_75.asset using Guid(e3fef7ba242c04142bb16cd667d77b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a5d8c6a590b4412c086956e9670144') in 0.015947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_681.asset
+  artifactKey: Guid(1ad39c2418bce8049b293986b2915d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_681.asset using Guid(1ad39c2418bce8049b293986b2915d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c7ed3bed5a198cac90949678c6d790') in 0.021361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_474.asset
+  artifactKey: Guid(a6f5e3acbc6acea48801358fdd6213dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_474.asset using Guid(a6f5e3acbc6acea48801358fdd6213dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726743c661f887f74dbef5e258c0d846') in 0.021622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_352.asset
+  artifactKey: Guid(e7d84dd1741bdbf4e8163a5ca4b3d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_352.asset using Guid(e7d84dd1741bdbf4e8163a5ca4b3d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7609cb6e926a0141028ebf6abd93da80') in 0.024283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_331.asset
+  artifactKey: Guid(078b3e7ce29662c4eaed369d1296a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_331.asset using Guid(078b3e7ce29662c4eaed369d1296a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b893fa443983098a883571db47c522') in 0.021813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_392.asset
+  artifactKey: Guid(dc551d6668c48804f8ba540620fe7774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_392.asset using Guid(dc551d6668c48804f8ba540620fe7774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb28d17380aa884e122d5789baff029') in 0.020362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_458.asset
+  artifactKey: Guid(e3bf42cc3400eae4ea116ad538f5c1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_458.asset using Guid(e3bf42cc3400eae4ea116ad538f5c1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41faf1c56e773ff38ae23d932e0335b7') in 0.022675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_165.asset
+  artifactKey: Guid(b272233441d549a49b66b30fbc8ee1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_165.asset using Guid(b272233441d549a49b66b30fbc8ee1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb63ea87b022cedfcf57b2abcca0b20') in 0.027674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_233.asset
+  artifactKey: Guid(d98b851545d1ccb4ea1411c08f09cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_233.asset using Guid(d98b851545d1ccb4ea1411c08f09cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b21fe70d73ac1714f2081a860dc165') in 0.020570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_180.asset
+  artifactKey: Guid(1495582b98b777740b9f2ab761bb92b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_180.asset using Guid(1495582b98b777740b9f2ab761bb92b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e049435388f96930962c39936e35fc1') in 0.018352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_932.asset
+  artifactKey: Guid(278bd32177dcc7244b26d8a607ffa734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_932.asset using Guid(278bd32177dcc7244b26d8a607ffa734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4818e0b241c17b22b67e586ad94b3714') in 0.021851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_619.asset
+  artifactKey: Guid(f65ad72d1a7b9ed4f884ec18dcf174a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_619.asset using Guid(f65ad72d1a7b9ed4f884ec18dcf174a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3abcff525fc07ba206a01b30e8890b') in 0.015386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_704.asset
+  artifactKey: Guid(e188a21d52c782f4cb1592d13906d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_704.asset using Guid(e188a21d52c782f4cb1592d13906d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cba1a624eb75384cd9685783113735c') in 0.020893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_376.asset
+  artifactKey: Guid(83ed0c5127d2fe14fb95bdeda0a6311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_376.asset using Guid(83ed0c5127d2fe14fb95bdeda0a6311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f2cf175422ec8feb40b1a866e0b3f4') in 0.022874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_138.asset
+  artifactKey: Guid(e170e3b1b3404484b9d027b34c5162a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_138.asset using Guid(e170e3b1b3404484b9d027b34c5162a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fc9e6c526c44e92479c87961771eb1') in 0.019569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_234.asset
+  artifactKey: Guid(d92eaa8c5c775b24aa334982115555f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_234.asset using Guid(d92eaa8c5c775b24aa334982115555f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce89bcdf08bb99eade87f7b62b1a06c2') in 0.018264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_140.asset
+  artifactKey: Guid(e4666d52f8e9eed418b30058412e3959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_140.asset using Guid(e4666d52f8e9eed418b30058412e3959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d452d474b69c041934f656f00fdd8f') in 0.019179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_213.asset
+  artifactKey: Guid(28621dbed9275cc42869bce41eca94af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_213.asset using Guid(28621dbed9275cc42869bce41eca94af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2289350f27e106154ebdcdb42b0375cd') in 0.019809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_217.asset
+  artifactKey: Guid(875da9dde3b58554394766bcabed3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_217.asset using Guid(875da9dde3b58554394766bcabed3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7b58b06fe74e420990cc2420e187fc') in 0.016463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_228.asset
+  artifactKey: Guid(11a8f53588b0efd418da18a71f912c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_228.asset using Guid(11a8f53588b0efd418da18a71f912c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814f4675be6007934631de21a8608970') in 0.017429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_928.asset
+  artifactKey: Guid(5fdf51320f74c8b43ad97eb8fc38205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_928.asset using Guid(5fdf51320f74c8b43ad97eb8fc38205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc13a539e7679a96a84383bd6896533') in 0.018321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_776.asset
+  artifactKey: Guid(eb7518794877bae4bbb696c7e07952af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_776.asset using Guid(eb7518794877bae4bbb696c7e07952af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41b122555b22b481482960b5ea4802f') in 0.018634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_901.asset
+  artifactKey: Guid(09661cfa31b864c4095dae04aa839e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_901.asset using Guid(09661cfa31b864c4095dae04aa839e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f4435e6f3ca2652811d57945457daa') in 0.018844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_747.asset
+  artifactKey: Guid(ec0046c156b6ccd4ba4560d47b440ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_747.asset using Guid(ec0046c156b6ccd4ba4560d47b440ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf54a410b5d6fce91cff8bc6c5d897e3') in 0.020140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_274.asset
+  artifactKey: Guid(48ddae154def60b47b5d4dc6a2c2a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_274.asset using Guid(48ddae154def60b47b5d4dc6a2c2a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbe3803cedb2cbfa6c8ea5d9e7001ae') in 0.018510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_134.asset
+  artifactKey: Guid(ebe643d9283bf0a499606f7ee4b16d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_134.asset using Guid(ebe643d9283bf0a499606f7ee4b16d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed6543f25f52beb76bee5fd41f8f38') in 0.020097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_267.asset
+  artifactKey: Guid(16a5d0a719f724f4e9ed4b094ff18a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_267.asset using Guid(16a5d0a719f724f4e9ed4b094ff18a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f212f5e756617c5cf46c795159581d') in 0.020318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_923.asset
+  artifactKey: Guid(3e3d15646a75a2c44acc56c54b01037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_923.asset using Guid(3e3d15646a75a2c44acc56c54b01037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bfaeda4fd672cae16ee894b2c5eee7') in 0.018178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_170.asset
+  artifactKey: Guid(8f511e43c83c8a046b0d93e92856fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_170.asset using Guid(8f511e43c83c8a046b0d93e92856fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f1fc22b98296d0256bfbb2d77c5407') in 0.016584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_843.asset
+  artifactKey: Guid(065a5ed615d15d64b964c04b600e5ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_843.asset using Guid(065a5ed615d15d64b964c04b600e5ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88470dbef2c0bf94eb1a41f09d23652') in 0.019692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_968.asset
+  artifactKey: Guid(2cb69b38a57bc804cb3f15b4ba01c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_968.asset using Guid(2cb69b38a57bc804cb3f15b4ba01c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9489d466e8e814c866c7d6a2f45c420') in 0.020448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_1000.asset
+  artifactKey: Guid(f8eeaa517431f5142838ad4b0a0dfe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_1000.asset using Guid(f8eeaa517431f5142838ad4b0a0dfe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dc13656c57b3c20df53d2f7ff74a10') in 0.022269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_279.asset
+  artifactKey: Guid(ba06651e2121a9b4c8d7e16021ecbd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_279.asset using Guid(ba06651e2121a9b4c8d7e16021ecbd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d13438b8beb278de6ffd2e2ab36a134') in 0.020943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_576.asset
+  artifactKey: Guid(73e62e2db8ce08f41a6bd00516ebdd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_576.asset using Guid(73e62e2db8ce08f41a6bd00516ebdd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04654edbc75bb24db8eca04ddb168dfc') in 0.018467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_135.asset
+  artifactKey: Guid(db849d6a933b0da40ab760187ca1c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_135.asset using Guid(db849d6a933b0da40ab760187ca1c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9785aa2aa048ea7e34ffc433d8b7c9cc') in 0.021326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_291.asset
+  artifactKey: Guid(a4cea4fcb0923454d964d2c5b1a6a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_291.asset using Guid(a4cea4fcb0923454d964d2c5b1a6a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76ba9ccabdfbfadce25d5e35ea0a6e') in 0.019627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_734.asset
+  artifactKey: Guid(aa204c5ff54915645bdf197f6eb2a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_734.asset using Guid(aa204c5ff54915645bdf197f6eb2a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff5a48e3d1300f0495e30eca90817a0') in 0.022103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_214.asset
+  artifactKey: Guid(342a88fe8a0555d4cba0a4cfc1b9fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_214.asset using Guid(342a88fe8a0555d4cba0a4cfc1b9fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d52585d799565501a6aa3964729f0fe') in 0.019153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_185.asset
+  artifactKey: Guid(23ad14446c81532468a0df6c2038f0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_185.asset using Guid(23ad14446c81532468a0df6c2038f0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981da5cfac2b114bb0f303fb5c5ff06d') in 0.018565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_300.asset
+  artifactKey: Guid(3b7a84dacdea66b44ab9aa40a441afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_300.asset using Guid(3b7a84dacdea66b44ab9aa40a441afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b240e02cc027174ca4bcc6f13e503fc4') in 0.019983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_834.asset
+  artifactKey: Guid(f25fdf401597a0e41a854f5ac7561676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_834.asset using Guid(f25fdf401597a0e41a854f5ac7561676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f077b71fb1df1fdc35a9ad3eaa66e8') in 0.015925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_753.asset
+  artifactKey: Guid(24193a739dbe36548b1529de51723097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_753.asset using Guid(24193a739dbe36548b1529de51723097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b84a1db1d7d9e8d33e44661c1ee2561') in 0.020829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_827.asset
+  artifactKey: Guid(6159caf44cd3f5f418e03fe220b093ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_827.asset using Guid(6159caf44cd3f5f418e03fe220b093ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502f9a4ba30e694f6b69b7ca4569e6c3') in 0.017112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_36.asset
+  artifactKey: Guid(65e8fa884fa8fb7468ddd0716c6da8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_36.asset using Guid(65e8fa884fa8fb7468ddd0716c6da8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b1c70dfcf796a576047f3c6a87513d') in 0.013819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_460.asset
+  artifactKey: Guid(c50580dbf43a2394eae72249675dcc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_460.asset using Guid(c50580dbf43a2394eae72249675dcc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66adf4ff0186d7951c4f021880760d8c') in 0.020480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_988.asset
+  artifactKey: Guid(b0dbca6b7ba8e3b438d317e347edc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_988.asset using Guid(b0dbca6b7ba8e3b438d317e347edc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d03b87d17daebd7b0fdbb2dc7c7126e') in 0.020058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_817.asset
+  artifactKey: Guid(f3aebd478e33dfb4ab163e6333e7c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_817.asset using Guid(f3aebd478e33dfb4ab163e6333e7c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e109177bf3b12b1db713a07a125de1') in 0.021872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_324.asset
+  artifactKey: Guid(18bf82c90f56b654bb7ae223c2cb3aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_324.asset using Guid(18bf82c90f56b654bb7ae223c2cb3aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8944eef300a5b7c6b8cefada5fa1dcc') in 0.022420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_861.asset
+  artifactKey: Guid(383d4770b84ce564f9609c101cbb1215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_861.asset using Guid(383d4770b84ce564f9609c101cbb1215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c207c4dffdeec50ded8c2ec9592fd7c') in 0.021268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_914.asset
+  artifactKey: Guid(ccd1af9e57945be4486fbd846d0e26f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_914.asset using Guid(ccd1af9e57945be4486fbd846d0e26f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b2ac73fd648281834e2b4cc28cddd') in 0.023398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_945.asset
+  artifactKey: Guid(14517b3ac9c03524586ffd5fab609d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_945.asset using Guid(14517b3ac9c03524586ffd5fab609d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1044b01b9b2ced4d84223d5292df1e50') in 0.020014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_117.asset
+  artifactKey: Guid(a80f5df39e1972c48b38575a64bd7ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_117.asset using Guid(a80f5df39e1972c48b38575a64bd7ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2ffa0de06ec2e61a7b00a47660c464') in 0.019113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_201.asset
+  artifactKey: Guid(dc5b7dcd6a02fce4b81dc0e4bf58a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_201.asset using Guid(dc5b7dcd6a02fce4b81dc0e4bf58a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3604323a1cfcf4ed95191e164fd408e') in 0.021892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_304.asset
+  artifactKey: Guid(a7459e52dd668af48bb3588c51f1aaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_304.asset using Guid(a7459e52dd668af48bb3588c51f1aaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24d20ae7725b5256a74dd46b988a7ec') in 0.022947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_146.asset
+  artifactKey: Guid(63745ce877b8de14cb38425b619792a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_146.asset using Guid(63745ce877b8de14cb38425b619792a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f71ae28d496db0246a2d716c7c6a72') in 0.016536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_921.asset
+  artifactKey: Guid(c2feba9b7f6228b47973bd8f43d4fbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_921.asset using Guid(c2feba9b7f6228b47973bd8f43d4fbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7a78d0ba427ba81a74a27d5cdc6fae') in 0.022884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_41.asset
+  artifactKey: Guid(195bd9ec911009549aa5dd99478f4a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_41.asset using Guid(195bd9ec911009549aa5dd99478f4a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b4388a9f77518b6eb4b516edd1f45') in 0.021437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_563.asset
+  artifactKey: Guid(8b1211a2fe2f02e4c929a647e878e3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_563.asset using Guid(8b1211a2fe2f02e4c929a647e878e3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6113215bf1decd33a392c8a62866a75') in 0.019903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_223.asset
+  artifactKey: Guid(4b2ecaf114a780e40a9e701b61d85398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_223.asset using Guid(4b2ecaf114a780e40a9e701b61d85398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46ce4c67c1f74329f85c6d804fa0de4') in 0.024007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_158.asset
+  artifactKey: Guid(69b294cbfba10d745a0cdb6ec908b67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_158.asset using Guid(69b294cbfba10d745a0cdb6ec908b67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1baa6a8b0497cbc84f0749ae315eba') in 0.016568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_568.asset
+  artifactKey: Guid(58c642217b714454d9e893c1abcfb417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_568.asset using Guid(58c642217b714454d9e893c1abcfb417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0dd5c80cfc22870e87150dbe8c09e0') in 0.021008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_775.asset
+  artifactKey: Guid(a35f67c5ea3308a4b96f7db872d19afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_775.asset using Guid(a35f67c5ea3308a4b96f7db872d19afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581e8268141ed399a82a0a56cc3bfb19') in 0.020124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_133.asset
+  artifactKey: Guid(3afdf53e2f5bcac4783f8b27a0b6850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_133.asset using Guid(3afdf53e2f5bcac4783f8b27a0b6850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0efcc5abe9d42ff24a01c595b64497') in 0.018656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_196.asset
+  artifactKey: Guid(0ab66aa48aecacd40a6790d18d30ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_196.asset using Guid(0ab66aa48aecacd40a6790d18d30ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ebf6a573dfcf7ef91f122bea35632e') in 0.015855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_743.asset
+  artifactKey: Guid(15c2a4a3514736f48a2f7de759f0a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_743.asset using Guid(15c2a4a3514736f48a2f7de759f0a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614b3f445e5e3439d2a421327f76bf48') in 0.022820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_514.asset
+  artifactKey: Guid(b4f0b4e72e97acb40a09db3545d8fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_514.asset using Guid(b4f0b4e72e97acb40a09db3545d8fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c13c855ccc92a473833479917b1ce58') in 0.024582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_693.asset
+  artifactKey: Guid(0bdce081dd335d14290816468a3eee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_693.asset using Guid(0bdce081dd335d14290816468a3eee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fdc7a867b096e7758866bf81f256db') in 0.019642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_340.asset
+  artifactKey: Guid(9f9cdd52d4b355b4dad2a708fff7689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_340.asset using Guid(9f9cdd52d4b355b4dad2a708fff7689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93540b02209eae62e9ecbed35a2e3a09') in 0.020984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_171.asset
+  artifactKey: Guid(dc3b7e9c513e81e409b998b2801982ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_171.asset using Guid(dc3b7e9c513e81e409b998b2801982ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec31fe08faf96ccbe660a4a8c8546489') in 0.016697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_590.asset
+  artifactKey: Guid(0a4fdefab8f0c3a4c9a7742cf2723c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_590.asset using Guid(0a4fdefab8f0c3a4c9a7742cf2723c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8699d794b13a4a3355c4b9ddd8f0eb7f') in 0.022310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_311.asset
+  artifactKey: Guid(d043a87b98a8a514e98a169e263cb4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_311.asset using Guid(d043a87b98a8a514e98a169e263cb4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bccf36ca667942d61c3b86e0e08e8a') in 0.018629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_680.asset
+  artifactKey: Guid(fa9b8dc48129f5a409ff2373b253fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_680.asset using Guid(fa9b8dc48129f5a409ff2373b253fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eb24ac8eb2811c0a25e4bc3d6956d1') in 0.019729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_435.asset
+  artifactKey: Guid(5de9b1df613649c4db25ee891a22e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_435.asset using Guid(5de9b1df613649c4db25ee891a22e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee5a9f5caef25c0870af922093c8fd3') in 0.017723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_317.asset
+  artifactKey: Guid(56779d48d356cc94994a0e79823f898f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_317.asset using Guid(56779d48d356cc94994a0e79823f898f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b6a50f1e5a9cc2c4f5bfdfedd4c3c') in 0.020429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_287.asset
+  artifactKey: Guid(5ce28b185ab4b8e43a93fe673c9060e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_287.asset using Guid(5ce28b185ab4b8e43a93fe673c9060e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b3697f0129792898bed7cc636ab255') in 0.022309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_357.asset
+  artifactKey: Guid(78ba27a21d8aaf84c96097d453f1d69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_357.asset using Guid(78ba27a21d8aaf84c96097d453f1d69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bbedc3328093417960c8c7019b32f5') in 0.022054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_139.asset
+  artifactKey: Guid(c6efe0f93c89b654e898ba946a7571af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_139.asset using Guid(c6efe0f93c89b654e898ba946a7571af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcb6d6a56b3f13fc0076f4ed168a270') in 0.020037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_6.asset
+  artifactKey: Guid(351df68ab2f314c429a3f0f6ae3f3407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_6.asset using Guid(351df68ab2f314c429a3f0f6ae3f3407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7952b940b7772e01e6fffc2c00d60b75') in 0.016797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_33.asset
+  artifactKey: Guid(b91c3386eb895424c88539edeea70bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_33.asset using Guid(b91c3386eb895424c88539edeea70bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c7ebf180550c62c668a869c7dd22f') in 0.017983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_151.asset
+  artifactKey: Guid(7ca4936570db7f34da4364227b9615d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_151.asset using Guid(7ca4936570db7f34da4364227b9615d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5919ef697d060c8dde12e846f9dc06') in 0.020284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_927.asset
+  artifactKey: Guid(41d842554810e8d499ec6731b3038740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_927.asset using Guid(41d842554810e8d499ec6731b3038740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698f0403877638063411e8f974bbfbe6') in 0.020518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_993.asset
+  artifactKey: Guid(4b67e09d7b497e7459ded87e88ca69e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_993.asset using Guid(4b67e09d7b497e7459ded87e88ca69e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b11170d4e5c1edd3dbcfd49102510de') in 0.019493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_238.asset
+  artifactKey: Guid(78675e6b14f9e5f41a6926a834a86f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_238.asset using Guid(78675e6b14f9e5f41a6926a834a86f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2533b5eaa5254e96aa5a508bf548d878') in 0.019199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_97.asset
+  artifactKey: Guid(c595aff7949c9394885e56ff787c6aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_97.asset using Guid(c595aff7949c9394885e56ff787c6aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5a5d6ce357820a06228efe01dabcda') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_192.asset
+  artifactKey: Guid(008b57ca8981eb74591a4cc6acb13881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_192.asset using Guid(008b57ca8981eb74591a4cc6acb13881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ed8e18bb2766d13835734176695459') in 0.021168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_178.asset
+  artifactKey: Guid(565c38f84c156424cbe161f6e431baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_178.asset using Guid(565c38f84c156424cbe161f6e431baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682b9f09ff720ecde0a5d58938a0532f') in 0.019820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_933.asset
+  artifactKey: Guid(6d5e21fe62f5cc849a6876cf297a6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_933.asset using Guid(6d5e21fe62f5cc849a6876cf297a6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d6abb9c0371c0887fcbf80921446b') in 0.020682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_495.asset
+  artifactKey: Guid(06c96b37c9582454fb539a8286fff495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_495.asset using Guid(06c96b37c9582454fb539a8286fff495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3230c553c5c18c67634cd9b409c33b') in 0.021228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_556.asset
+  artifactKey: Guid(f41d13cd22ee46649a865a4a7ab6296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_556.asset using Guid(f41d13cd22ee46649a865a4a7ab6296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d881044d67733a72b771c4db134dde') in 0.020928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_71.asset
+  artifactKey: Guid(bd85dce904c5bc542af6f83eed338aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_71.asset using Guid(bd85dce904c5bc542af6f83eed338aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3a98bbf34e1f9e434a4ed11d758971') in 0.018064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_466.asset
+  artifactKey: Guid(66d8900bc8b68c642ae3f16f279d994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_466.asset using Guid(66d8900bc8b68c642ae3f16f279d994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6eede9fed4ef2b1d4dbfba19875dda') in 0.024123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_119.asset
+  artifactKey: Guid(21218de477da2784ab4243c8c3d0c78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_119.asset using Guid(21218de477da2784ab4243c8c3d0c78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd62b4241fa0ca1ee917e294cf806a36') in 0.020646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_629.asset
+  artifactKey: Guid(7674892ccfef54a498c393b3bde5fcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_629.asset using Guid(7674892ccfef54a498c393b3bde5fcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32f351688c1ffeac900da1302c85910') in 0.019704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_662.asset
+  artifactKey: Guid(651d30179f36a0c4282ca6f3a85f210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_662.asset using Guid(651d30179f36a0c4282ca6f3a85f210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e05a7b02d5cba769d8ce53a1004e00') in 0.022903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_122.asset
+  artifactKey: Guid(a6127c8c6027e5f4f984a7c7c0f4ffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_122.asset using Guid(a6127c8c6027e5f4f984a7c7c0f4ffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b325c50028b946eb144d580363d642') in 0.016498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_18.asset
+  artifactKey: Guid(d1848afbedecb584fb21e6c9da452fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_18.asset using Guid(d1848afbedecb584fb21e6c9da452fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f455cdd5c199ba86800b3d0731b58f8') in 0.018648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_204.asset
+  artifactKey: Guid(bd459bd8ac300cf4793e8885b5a0ba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_204.asset using Guid(bd459bd8ac300cf4793e8885b5a0ba24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407cb18bcf9ea6ff3fe78a51d1876389') in 0.019890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_599.asset
+  artifactKey: Guid(90554a0e5027c0d48ab0f142d7f04b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_599.asset using Guid(90554a0e5027c0d48ab0f142d7f04b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e29fd70a62d2efabcc70b844ed14a3e') in 0.021655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_382.asset
+  artifactKey: Guid(fc1c7360f5cf7104c91fbca29cd39781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_382.asset using Guid(fc1c7360f5cf7104c91fbca29cd39781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dbf91fc8408cd27573a88db0f4c8d7') in 0.020393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_931.asset
+  artifactKey: Guid(7a6f07e421510374b8c4bdeb80bd5edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_931.asset using Guid(7a6f07e421510374b8c4bdeb80bd5edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cb1e5a21d6b12f8c615c0301746591') in 0.021798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_20.asset
+  artifactKey: Guid(57ea3ce5f82dbc743812e83b36d82694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_20.asset using Guid(57ea3ce5f82dbc743812e83b36d82694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8f34c627a31f7ba8347180ac885c17') in 0.016923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_787.asset
+  artifactKey: Guid(a5dbf8f3a630eae47aa365c195424f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_787.asset using Guid(a5dbf8f3a630eae47aa365c195424f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2e81bc32b22fb96a47229d5cc6a29') in 0.019238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_873.asset
+  artifactKey: Guid(43b7d65270467aa44960d046fcebb04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_873.asset using Guid(43b7d65270467aa44960d046fcebb04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f156f0e1bf6e0393a7937946ae6ec067') in 0.018997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_482.asset
+  artifactKey: Guid(67fdf122707a9b64ea5ee9ca51b666ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_482.asset using Guid(67fdf122707a9b64ea5ee9ca51b666ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442d61395caf8b4d2487989eb70b4263') in 0.019916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_298.asset
+  artifactKey: Guid(ade7fc70d029b8b48b0c4ff9786998b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_298.asset using Guid(ade7fc70d029b8b48b0c4ff9786998b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38266c6633483f751ed2e38e9147c59') in 0.020633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_779.asset
+  artifactKey: Guid(de9909f7ebc10fa488c6700b7f3b4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_779.asset using Guid(de9909f7ebc10fa488c6700b7f3b4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaee4e646f9dc18faad54b7f80aa46d') in 0.019916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_748.asset
+  artifactKey: Guid(aec1b8eb3168a2e4fa76ea1e58bfa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/mainlevbuild_748.asset using Guid(aec1b8eb3168a2e4fa76ea1e58bfa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999abdf8648f50f0f4d6843e65837db4') in 0.017303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_108.asset
+  artifactKey: Guid(a5fd227c82a206b4993f27d3d9535d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fantasy Cataboms/RF_Catacombs_v1.0/Tiles/Room_Builder_free_16x16_108.asset using Guid(a5fd227c82a206b4993f27d3d9535d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29999cc8e50b6acfd4a5f887c674fd11') in 0.017817 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
