@@ -9934,7 +9934,7 @@ GameObject:
   - component: {fileID: 50614525472420450}
   - component: {fileID: 8652130142629035444}
   m_Layer: 18
-  m_Name: KoalaGunBullet
+  m_Name: GunBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9949,7 +9949,7 @@ Transform:
   m_GameObject: {fileID: 1579859513670320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.42, y: -1.546, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4034307314382222}
@@ -10043,7 +10043,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   TriggerFilter: 195
   MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MaxDamageCaused: 25
   TypedDamages: []
   DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 3
