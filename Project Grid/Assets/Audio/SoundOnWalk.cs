@@ -5,6 +5,8 @@ using UnityEngine;
 public class SoundOnWalk : MonoBehaviour
 {
         public AudioSource[] soundFX;
+        public AudioClip HitClip;
+        public AudioSource audiosource;
 
     // Update is called once per frame
     void Update()
@@ -21,6 +23,10 @@ public class SoundOnWalk : MonoBehaviour
         if (Input.GetButtonDown("D")) {
             soundFX[3].Play();
         }
+        if (Input.GetMouseButtonDown(0)) {
+            audiosource.PlayOneShot(HitClip);
+        }
+
         if (Input.GetButtonUp("W")) {
             soundFX[0].Stop();
         }
