@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 3722060810774009616}
   - component: {fileID: 1285468636789780280}
   - component: {fileID: 1241169737706077868}
+  - component: {fileID: 1187658554527656044}
   m_Layer: 0
   m_Name: Flashlight
   m_TagString: Untagged
@@ -311,3 +312,32 @@ MonoBehaviour:
   CameraTargetOffset: 0.3
   CameraTargetMaxDistance: 10
   CameraTargetSpeed: 5
+--- !u!114 &1187658554527656044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6937649590693117743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022d785ef9196354e906194101045fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponID: flashlight
+  TargetModel: {fileID: 0}
+  AimWeaponModelAtTarget: 1
+  LockVerticalRotation: 1
+  AddAnimator: 0
+  TargetAnimator: {fileID: 0}
+  OverrideWeaponUseTransform: 0
+  WeaponUseTransform: {fileID: 0}
+  UseIK: 0
+  LeftHandHandle: {fileID: 0}
+  RightHandHandle: {fileID: 0}
+  BindFeedbacks: 1
+  WeaponStartMMFeedback: {fileID: 0}
+  WeaponUsedMMFeedback: {fileID: 0}
+  WeaponStopMMFeedback: {fileID: 0}
+  WeaponReloadMMFeedback: {fileID: 0}
+  WeaponReloadNeededMMFeedback: {fileID: 0}

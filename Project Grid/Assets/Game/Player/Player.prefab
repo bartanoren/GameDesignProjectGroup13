@@ -222,10 +222,11 @@ GameObject:
   - component: {fileID: 1691403801846309804}
   - component: {fileID: 1691403801846309807}
   - component: {fileID: 1691403801846309806}
-  - component: {fileID: 1691403801846309793}
   - component: {fileID: 1788045279}
   - component: {fileID: 1788045295}
+  - component: {fileID: 1691403801846309793}
   - component: {fileID: 765771913213143246}
+  - component: {fileID: -275509670193101477}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -241,7 +242,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691403801846309809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 1.3, z: -13.368772}
+  m_LocalPosition: {x: -2, y: 1.3, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -665,43 +666,6 @@ MonoBehaviour:
   TargetDamageResistanceProcessor: {fileID: 0}
   TargetAnimator: {fileID: 0}
   DisableAnimatorLogs: 1
---- !u!114 &1691403801846309793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691403801846309809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a07c6668aa55403790d27b575279549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  InitialWeapon: {fileID: 1285468636789780280, guid: ad17ae3796cca934ba84460b9675fb3d,
-    type: 3}
-  CanPickupWeapons: 1
-  WeaponUseFeedback: {fileID: 0}
-  WeaponAttachment: {fileID: 0}
-  ProjectileSpawn: {fileID: 0}
-  AutomaticallyBindAnimator: 1
-  AmmoDisplayID: 0
-  AutoIK: 1
-  ContinuousPress: 0
-  GettingHitInterruptsAttack: 0
-  UseSecondaryAxisThresholdToShoot: 0
-  BufferInput: 0
-  NewInputExtendsBuffer: 0
-  MaximumBufferDuration: 0.25
-  RequiresPerfectTile: 0
-  CurrentWeapon: {fileID: 0}
 --- !u!114 &1788045279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,7 +862,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   FallingFeedback: {fileID: 0}
---- !u!114 &765771913213143246
+--- !u!114 &1691403801846309793
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -907,7 +871,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1691403801846309809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c54b7b53e26347643a7d54dd14a14b62, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a07c6668aa55403790d27b575279549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AbilityStartSfx: {fileID: 0}
@@ -935,6 +899,56 @@ MonoBehaviour:
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
   CurrentWeapon: {fileID: 0}
+--- !u!114 &765771913213143246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691403801846309809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54b7b53e26347643a7d54dd14a14b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  InitialWeapon: {fileID: 1285468636789780280, guid: ad17ae3796cca934ba84460b9675fb3d,
+    type: 3}
+  CanPickupWeapons: 1
+  WeaponUseFeedback: {fileID: 0}
+  WeaponAttachment: {fileID: 0}
+  ProjectileSpawn: {fileID: 0}
+  AutomaticallyBindAnimator: 1
+  AmmoDisplayID: 0
+  AutoIK: 1
+  ContinuousPress: 0
+  GettingHitInterruptsAttack: 0
+  UseSecondaryAxisThresholdToShoot: 0
+  BufferInput: 0
+  NewInputExtendsBuffer: 0
+  MaximumBufferDuration: 0.25
+  RequiresPerfectTile: 0
+  CurrentWeapon: {fileID: 0}
+--- !u!114 &-275509670193101477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691403801846309809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44acf14f823b0544d8763324390d1ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bindings: []
 --- !u!1 &6257558866584089986
 GameObject:
   m_ObjectHideFlags: 0
