@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 1788045295}
   - component: {fileID: 1691403801846309793}
   - component: {fileID: 765771913213143246}
-  - component: {fileID: -275509670193101477}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -936,19 +935,6 @@ MonoBehaviour:
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
   CurrentWeapon: {fileID: 0}
---- !u!114 &-275509670193101477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691403801846309809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44acf14f823b0544d8763324390d1ccc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bindings: []
 --- !u!1 &6257558866584089986
 GameObject:
   m_ObjectHideFlags: 0
