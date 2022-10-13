@@ -143,10 +143,10 @@ MonoBehaviour:
   BurstLength: 3
   BurstTimeBetweenShots: 0.1
   MagazineBased: 0
-  MagazineSize: 30
+  MagazineSize: 5
   AutoReload: 0
   NoInputReload: 0
-  ReloadTime: 2
+  ReloadTime: 5
   AmmoConsumedPerShot: 1
   AutoDestroyWhenEmpty: 0
   AutoDestroyWhenEmptyDelay: 1
@@ -216,11 +216,11 @@ MonoBehaviour:
   MinimumAngle: -180
   MaximumAngle: 180
   MinimumMagnitude: 0.2
-  ReticleType: 0
+  ReticleType: 1
   Reticle: {fileID: 1373789777524232, guid: f31b518c2b50cc2479370c46d4485485, type: 3}
   ReticleDistance: 0
   ReticleHeight: 0
-  ReticleAtMousePosition: 0
+  ReticleAtMousePosition: 1
   RotateReticle: 0
   ReplaceMousePointer: 1
   MouseDeadZoneRadius: 0.5
