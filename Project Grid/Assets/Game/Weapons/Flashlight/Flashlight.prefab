@@ -210,7 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AimControl: 3
   RotationMode: 0
-  WeaponRotationSpeed: 10
+  WeaponRotationSpeed: 20
   MinimumAngle: -180
   MaximumAngle: 180
   MinimumMagnitude: 0.2

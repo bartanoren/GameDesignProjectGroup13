@@ -211,12 +211,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AimControl: 3
   RotationMode: 0
-  WeaponRotationSpeed: 10
+  WeaponRotationSpeed: 20
   MinimumAngle: -180
   MaximumAngle: 180
   MinimumMagnitude: 0.2
   ReticleType: 1
-  Reticle: {fileID: 1373789777524232, guid: f31b518c2b50cc2479370c46d4485485, type: 3}
+  Reticle: {fileID: 1000010525066036, guid: 45064128bcec2b7459172aaffc89dccb, type: 3}
   ReticleDistance: 0
   ReticleHeight: 0
   ReticleAtMousePosition: 1
