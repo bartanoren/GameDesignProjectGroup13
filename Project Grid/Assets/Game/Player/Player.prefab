@@ -214,7 +214,6 @@ GameObject:
   - component: {fileID: 1691403801846309796}
   - component: {fileID: 1691403801846309799}
   - component: {fileID: 1691403801846309798}
-  - component: {fileID: 1691403801846309800}
   - component: {fileID: 1691403801846309803}
   - component: {fileID: 1691403801846309805}
   - component: {fileID: 1691403801846309804}
@@ -403,31 +402,6 @@ MonoBehaviour:
   AbsoluteThresholdWeapon: 0.5
   CurrentFacingDirection: 1
   IsFacingRight: 1
---- !u!114 &1691403801846309800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691403801846309809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c86c96e06d6ae44b822a6ab24e1b8fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  JumpDuration: 1
-  JumpProportionalToPress: 1
-  MinimumPressTime: 0.4
-  JumpStartFeedback: {fileID: 0}
-  JumpStopFeedback: {fileID: 0}
 --- !u!114 &1691403801846309803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,10 +535,10 @@ MonoBehaviour:
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
-  DestroyOnDeath: 1
-  DelayBeforeDestruction: 0
+  DestroyOnDeath: 0
+  DelayBeforeDestruction: 3
   PointsWhenDestroyed: 0
-  RespawnAtInitialLocation: 0
+  RespawnAtInitialLocation: 1
   DisableControllerOnDeath: 1
   DisableModelOnDeath: 1
   DisableCollisionsOnDeath: 1
@@ -596,13 +570,13 @@ MonoBehaviour:
   HealthBarType: 1
   TimeScale: 0
   HealthBarPrefab: {fileID: 0}
-  Size: {x: 1, y: 0.2}
+  Size: {x: 0.35, y: 0.07}
   BackgroundPadding: {x: 0.01, y: 0.01}
   InitialRotationAngles: {x: 0, y: 0, z: 0}
   ForegroundColor:
     serializedVersion: 2
-    key0: {r: 1, g: 0.09411765, b: 0, a: 1}
-    key1: {r: 1, g: 0.09411765, b: 0, a: 1}
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
