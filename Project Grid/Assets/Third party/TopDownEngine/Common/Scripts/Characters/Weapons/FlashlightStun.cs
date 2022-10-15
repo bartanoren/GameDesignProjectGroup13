@@ -8,25 +8,14 @@ namespace MoreMountains.TopDownEngine
 	/// <summary>
 	/// A stun zone will stun any character with a CharacterStun ability entering it
 	/// </summary>
-	public class DeStun : MonoBehaviour
+	public class FlashlightStun : MonoBehaviour
 	{
-		/// the possible stun modes : Forever : stuns until StunExit is called on the CharacterStun component, ForDuration : stuns for a duration, and then the character will exit stun on its own
-		public enum StunModes { Forever, ForDuration }
-
 		[Header("Stun Zone")]
 		// the layers that will be stunned by this object
 		[Tooltip("the layers that will be stunned by this object")]
 		public LayerMask TargetLayerMask;
-		/// the chosen stun mode (Forever : stuns until StunExit is called on the CharacterStun component, ForDuration : stuns for a duration, and then the character will exit stun on its own)
-		[Tooltip("the chosen stun mode (Forever : stuns until StunExit is called on the CharacterStun component, ForDuration : stuns for a duration, and then the character will exit stun on its own)")] 
-		public StunModes StunMode = StunModes.ForDuration;
-		/// if in ForDuration mode, the duration of the stun in seconds
-		[Tooltip("if in ForDuration mode, the duration of the stun in seconds")]
-		[MMEnumCondition("StunMode", (int)StunModes.ForDuration)]
+
 		public float StunDuration = 2f;
-		/// whether or not to disable the zone after the stun has happened
-		[Tooltip("whether or not to disable the zone after the stun has happened")]
-		public bool DisableZoneOnStun = true;
 
 		protected Character _character;
 		protected CharacterStun _characterStun;
@@ -39,7 +28,6 @@ namespace MoreMountains.TopDownEngine
 		{
 			if (!MMLayers.LayerInLayerMask(collider.layer, TargetLayerMask))
 			{
-
 				return;
 			}
 
@@ -50,20 +38,28 @@ namespace MoreMountains.TopDownEngine
 			{
 				return;
 			}
+        
+			_characterStun.Stun();
             
-			if (StunMode == StunModes.ForDuration)
+		}
+
+		/// <param name="collider"></param>
+		protected virtual void DeStun(GameObject collider)
+		{
+			if (!MMLayers.LayerInLayerMask(collider.layer, TargetLayerMask))
 			{
-				_characterStun.StunFor(StunDuration);
+				return;
 			}
-			else
+
+			_character = collider.GetComponent<Character>();
+			if (_character != null) { _characterStun = _character.FindAbility<CharacterStun>(); }
+
+			if (_characterStun == null)
 			{
-				_characterStun.ExitStun();
+				return;
 			}
-            
-			if (DisableZoneOnStun)
-			{
-				this.gameObject.SetActive(false);
-			}
+        
+			_characterStun.ExitStun();
 		}
         
 		/// <summary>
@@ -82,6 +78,11 @@ namespace MoreMountains.TopDownEngine
 		public virtual void OnTriggerEnter2D(Collider2D collider)
 		{
 			Colliding(collider.gameObject);
+		}
+
+		public virtual void OnTriggerExit2D(Collider2D collider)
+		{
+			DeStun(collider.gameObject);
 		}
 
 		/// <summary>
