@@ -194,6 +194,7 @@ namespace MoreMountains.TopDownEngine
 			}
 			else
 			{
+				
 				Teleport(collider);
 			}
 		}

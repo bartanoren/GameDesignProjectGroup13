@@ -27,7 +27,6 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("running");
         spawnVec = transform.position;
 
         m_Collider = GetComponent<Collider2D>();
@@ -37,7 +36,6 @@ public class EnemySpawner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        print("OnTriggerEnter2D detected");
         if (!spawnerEnabled)
         {
             spawnerEnabled = true;
