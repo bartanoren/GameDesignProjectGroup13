@@ -7,33 +7,48 @@ public class PressurePlate : MonoBehaviour
     [SerializeField]
     public Animator myAnim;
 
-    public bool otherPlateEnabled = false;
+    [SerializeField]
+    public GameObject teleporter;
 
-    GameObject teleporter;
+    [SerializeField]
+    public GameObject currentPlate;
+
+    public static int collisionCount = 0;
+
+    private Collider2D m_Collider;
+
+    private GameObject[] checkMarks;
 
     // Start is called before the first frame update
     void Start()
     {
-        print("started pressureplate");
-        teleporter = GameObject.Find("ExitDarkness");
+
+        m_Collider = currentPlate.GetComponent<Collider2D>();
+
         teleporter.SetActive(false);
+
+        
+        collisionCount++;
+        
+        print(collisionCount);
     }
+        
+
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
         myAnim.Play("TeleporterAnimation");
 
-        print(teleporter);
-    
+        m_Collider.enabled = false;
+        collisionCount--;
 
-        if(!otherPlateEnabled)
-        {
-            otherPlateEnabled = true;
-        } 
-        else 
+        print(collisionCount);
+        
+        if(collisionCount == 0)
         {
             teleporter.SetActive(true);
         }
+        
         
     }
 }
