@@ -2381,7 +2381,7 @@ TextureImporter:
         width: 17
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2402,7 +2402,7 @@ TextureImporter:
         width: 15
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2423,7 +2423,7 @@ TextureImporter:
         width: 13
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2444,7 +2444,7 @@ TextureImporter:
         width: 13
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2465,7 +2465,7 @@ TextureImporter:
         width: 13
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2486,7 +2486,7 @@ TextureImporter:
         width: 14
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2507,7 +2507,7 @@ TextureImporter:
         width: 14
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2528,7 +2528,7 @@ TextureImporter:
         width: 15
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2549,7 +2549,7 @@ TextureImporter:
         width: 13
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2570,7 +2570,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2591,7 +2591,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2612,7 +2612,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2633,7 +2633,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2654,7 +2654,7 @@ TextureImporter:
         width: 25
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2675,7 +2675,7 @@ TextureImporter:
         width: 24
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2696,7 +2696,7 @@ TextureImporter:
         width: 30
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2704,6 +2704,27 @@ TextureImporter:
       bones: []
       spriteID: 0efdbffdb93d44d4a9ec0d14603da786
       internalID: -195683097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 19_Hospital_16x16_124
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 299
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e15afd5d5e1864f990abfa4593122a
+      internalID: 1960414720
       vertices: []
       indices: 
       edges: []
@@ -2783,9 +2804,10 @@ TextureImporter:
       19_Hospital_16x16_122: -632516827
       19_Hospital_16x16_2: -786904919
       19_Hospital_16x16_6: -280383114
-      19_Hospital_16x16_11: -1106713024
       19_Hospital_16x16_50: -1258052788
+      19_Hospital_16x16_11: -1106713024
       19_Hospital_16x16_4: -854704845
+      19_Hospital_16x16_77: -49101968
       19_Hospital_16x16_16: 714779839
       19_Hospital_16x16_95: 1581299627
       19_Hospital_16x16_123: -195683097
@@ -2799,9 +2821,10 @@ TextureImporter:
       19_Hospital_16x16_109: -293029977
       19_Hospital_16x16_87: -1213908755
       19_Hospital_16x16_25: 107030576
-      19_Hospital_16x16_77: -49101968
+      19_Hospital_16x16_121: 1714089043
       19_Hospital_16x16_23: 1767606052
       19_Hospital_16x16_86: -67981095
+      19_Hospital_16x16_124: 1960414720
       19_Hospital_16x16_54: -613374258
       19_Hospital_16x16_106: 127056147
       19_Hospital_16x16_107: -1407230962
@@ -2816,7 +2839,6 @@ TextureImporter:
       19_Hospital_16x16_57: 346968162
       19_Hospital_16x16_31: -1009717564
       19_Hospital_16x16_82: -1613636857
-      19_Hospital_16x16_121: 1714089043
       19_Hospital_16x16_89: -1177174451
       19_Hospital_16x16_26: 726561754
       19_Hospital_16x16_47: -1383467964
