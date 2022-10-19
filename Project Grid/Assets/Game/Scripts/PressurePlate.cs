@@ -17,16 +17,18 @@ public class PressurePlate : MonoBehaviour
 
     private Collider2D m_Collider;
 
-    private GameObject[] checkMarks;
+    [SerializeField]
+    public GameObject light;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
         m_Collider = currentPlate.GetComponent<Collider2D>();
 
         teleporter.SetActive(false);
 
+        light.SetActive(false);
         
         collisionCount++;
         
@@ -34,10 +36,11 @@ public class PressurePlate : MonoBehaviour
     }
         
 
-
+    //TODO: add player only detection for the collision
     public void OnTriggerEnter2D(Collider2D collider)
     {
         myAnim.Play("TeleporterAnimation");
+        light.SetActive(true);
 
         m_Collider.enabled = false;
         collisionCount--;

@@ -314,7 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1253754887192161919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ObjectsEmptyRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 4115711269742222740}
   - component: {fileID: 8258342248108838735}
   - component: {fileID: 7592588079020423433}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TilemapFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92630,7 +92630,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f25f1294c590da346b5e5883fcf83dab, type: 2}
+  - {fileID: 2100000, guid: 9eaf5e5a322fda54a815c461b9905d6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92732,7 +92732,7 @@ GameObject:
   - component: {fileID: 494276110791963155}
   - component: {fileID: 5747504947330297876}
   - component: {fileID: 3205090504268192931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TilemapWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101246,7 +101246,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f25f1294c590da346b5e5883fcf83dab, type: 2}
+  - {fileID: 2100000, guid: 9eaf5e5a322fda54a815c461b9905d6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101337,7 +101337,7 @@ GameObject:
   - component: {fileID: 7121637496092479407}
   - component: {fileID: 428522906245854149}
   - component: {fileID: 6909801076958161820}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: TilemapHoles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101557,7 +101557,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f25f1294c590da346b5e5883fcf83dab, type: 2}
+  - {fileID: 2100000, guid: 9eaf5e5a322fda54a815c461b9905d6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
