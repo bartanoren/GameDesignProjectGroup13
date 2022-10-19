@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 2
+  Radius: 3
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -453,8 +453,8 @@ MonoBehaviour:
   ObstacleDetection: 1
   ObstacleMask:
     serializedVersion: 2
-    m_Bits: 256
-  ObstaclesDetectionMode: 1
+    m_Bits: 33024
+  ObstaclesDetectionMode: 0
   CanTargetSelf: 0
   TargetCheckFrequency: 1
   OverlapMaximum: 10
