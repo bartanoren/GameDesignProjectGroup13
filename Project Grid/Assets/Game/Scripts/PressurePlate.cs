@@ -39,19 +39,22 @@ public class PressurePlate : MonoBehaviour
     //TODO: add player only detection for the collision
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        myAnim.Play("TeleporterAnimation");
-        light.SetActive(true);
-
-        m_Collider.enabled = false;
-        collisionCount--;
-
-        print(collisionCount);
-        
-        if(collisionCount == 0)
+        if (collider.CompareTag("Player") ) 
         {
-            teleporter.SetActive(true);
+            
+            myAnim.Play("TeleporterAnimation");
+            light.SetActive(true);
+
+            m_Collider.enabled = false;
+            collisionCount--;
+
+            print(collisionCount);
+            
+            if(collisionCount == 0)
+            {
+                teleporter.SetActive(true);
+            }
+            
         }
-        
-        
     }
 }
