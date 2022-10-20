@@ -187,7 +187,7 @@ MonoBehaviour:
   Interruptable: 0
   Flipped: 0
   ProjectileSpawnOffset: {x: 0, y: 0, z: 0}
-  DefaultProjectileDirection: {x: 0, y: 0, z: 1}
+  DefaultProjectileDirection: {x: 0, y: 0, z: 0}
   ProjectilesPerShot: 1
   SpawnTransforms: []
   SpawnTransformsMode: 1
