@@ -8,4 +8,8 @@ public class ButtonFunction : MonoBehaviour
     public void playbutton() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void quitbutton() {
+        Application.Quit();
+        Debug.Log("Quit");
+    }
 }
