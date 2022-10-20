@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -103,18 +103,678 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: free sprites 4x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb288c1d959671d439af57302d721cfd
+      internalID: 928329071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 294.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d86610660d497641bdbadb27ae63443
+      internalID: -1432356039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 294.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658ff15faa136b241807eeacfb151ebb
+      internalID: -630185826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 294.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d78c167ba73324c8df674ad321a55c
+      internalID: -687191455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 294.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f43a755b26f5fd4f8cfb4d0de1168ec
+      internalID: 1175854549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 294.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b011bd48685c54ab5d712ea03e46cd
+      internalID: 1566696586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc40e827c0fb1247b23b84a15891d7f
+      internalID: 808300079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 221.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a217af2477bb824593a921b12837bd2
+      internalID: -1441472385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 221.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1890c5e6bf1c324d8d4fe48e9f868e1
+      internalID: -1236535768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 221.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db00a762869c5684f858705dd840c17d
+      internalID: 1678470791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 221.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfaec560c0fcef499fd31695385af53
+      internalID: -1878711146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 221.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b464572d21a5041b9319ee5ce8490b
+      internalID: 1525754419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd86727a8f15e6f4bbc05c4d2b095298
+      internalID: 1901860278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 148.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a127fdf48dbe012469e817124c120d17
+      internalID: 2073319232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 148.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c700846f216a241a1306eca857f929
+      internalID: -1776278244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 148.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1320a9d4c6b8c43aa85103bb8810a3
+      internalID: 653403855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 148.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f916a686540c25439f2e8b86fc87262
+      internalID: -2139614406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 148.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1801dcd5c00cc4d4a8bd9b2482b1ebb8
+      internalID: 1093165043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078eafe1fff4ac8429c70f2bfeb9a92c
+      internalID: 1173385650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000d0fd7d9502084fb0f829af3a1195b
+      internalID: 1459260721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 75.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab78dab401a8b2468bd4ac18f44a319
+      internalID: -1330847891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_21
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 75.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad22008389eea846b73d26a4aa0fa43
+      internalID: 609948005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 75.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9548b1d8ba36e9c4d9433d494e3c4357
+      internalID: -756154965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 75.4
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d16844697431ad4285bfd54d03bb7e7
+      internalID: 2076662184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.4000015
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0742ce1b9e6242948bd5d9e8520fea84
+      internalID: 2078862652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2.4000015
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca7ba82cca2824280edfce6b1ebd7d
+      internalID: -1821695621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2.4000015
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727d8a9fc43dff4b8804d166e0c710c
+      internalID: -1334561877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2.4000015
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11fa9d55a840e84f8bf8a766528aa86
+      internalID: 2126864866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2.4000015
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0608a9ae26cd4a4ca4988a052e38dd3
+      internalID: -338186812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free sprites 4x_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2.4000015
+        width: 72
+        height: 73.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9dd13240a4c1c41a8184026fb002b1
+      internalID: 1629075201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7e49ad6da84e97048bf97741781c70a5
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      free sprites 4x_24: 2078862652
+      free sprites 4x_16: -2139614406
+      free sprites 4x_29: 1629075201
+      free sprites 4x_22: -756154965
+      free sprites 4x_19: 1459260721
+      free sprites 4x_25: -1821695621
+      free sprites 4x_6: 808300079
+      free sprites 4x_8: -1236535768
+      free sprites 4x_13: 2073319232
+      free sprites 4x_7: -1441472385
+      free sprites 4x_23: 2076662184
+      free sprites 4x_1: -1432356039
+      free sprites 4x_17: 1093165043
+      free sprites 4x_0: 928329071
+      free sprites 4x_3: -687191455
+      free sprites 4x_5: 1566696586
+      free sprites 4x_15: 653403855
+      free sprites 4x_18: 1173385650
+      free sprites 4x_20: -1330847891
+      free sprites 4x_26: -1334561877
+      free sprites 4x_21: 609948005
+      free sprites 4x_14: -1776278244
+      free sprites 4x_9: 1678470791
+      free sprites 4x_27: 2126864866
+      free sprites 4x_4: 1175854549
+      free sprites 4x_11: 1525754419
+      free sprites 4x_2: -630185826
+      free sprites 4x_12: 1901860278
+      free sprites 4x_10: -1878711146
+      free sprites 4x_28: -338186812
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
