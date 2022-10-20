@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class GoToLoading : MonoBehaviour
 {
     public void teleportLoader() {
-         SceneManager.LoadScene("LoadingScreen");
+         SceneManager.LoadSceneAsync("LoadingScreen");
     }
 }
