@@ -141,11 +141,11 @@ MonoBehaviour:
   UseBurstMode: 0
   BurstLength: 3
   BurstTimeBetweenShots: 0.1
-  MagazineBased: 0
-  MagazineSize: 5
-  AutoReload: 0
+  MagazineBased: 1
+  MagazineSize: 9
+  AutoReload: 1
   NoInputReload: 0
-  ReloadTime: 5
+  ReloadTime: 0.8
   AmmoConsumedPerShot: 1
   AutoDestroyWhenEmpty: 0
   AutoDestroyWhenEmptyDelay: 1
