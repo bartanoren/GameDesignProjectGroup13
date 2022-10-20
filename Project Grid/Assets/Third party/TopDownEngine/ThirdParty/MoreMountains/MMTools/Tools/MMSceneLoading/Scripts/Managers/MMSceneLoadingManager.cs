@@ -63,7 +63,7 @@ namespace MoreMountains.Tools
 		public float LoadCompleteDelay=0.5f;
 
 		protected AsyncOperation _asyncOperation;
-		protected static string _sceneToLoad = "";
+		protected static string _sceneToLoad = "Game";
 		protected float _fadeDuration = 0.5f;
 		protected float _fillTarget=0f;
 		protected string _loadingTextValue;
