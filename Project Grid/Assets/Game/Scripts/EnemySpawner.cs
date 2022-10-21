@@ -20,8 +20,6 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private double maxEnemyCount = 0d;
 
-    Collider2D m_Collider;
-
     private bool spawnerEnabled = false;
 
     // Start is called before the first frame update
@@ -29,7 +27,6 @@ public class EnemySpawner : MonoBehaviour
     {
         spawnVec = transform.position;
 
-        m_Collider = GetComponent<Collider2D>();
         
     }
 
