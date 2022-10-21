@@ -781,8 +781,8 @@ MonoBehaviour:
   spawnerPrefab: {fileID: 1799978647051978137, guid: df7163c3204ba8c4fa7d71a6f4603dad,
     type: 3}
   spawnerInterval: 1.2
-  spawnDistance: 1
-  maxEnemyCount: 50
+  spawnDistance: 0.3
+  maxEnemyCount: 500
 --- !u!114 &896621080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,8 +826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 3 seconds one
-  AfterTimeMin: 2
-  AfterTimeMax: 2
+  AfterTimeMin: 1.8
+  AfterTimeMax: 2.8
 --- !u!114 &896621083
 MonoBehaviour:
   m_ObjectHideFlags: 0
