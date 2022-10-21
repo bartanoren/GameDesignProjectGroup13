@@ -31,6 +31,7 @@ public class PressurePlate : MonoBehaviour
         light.SetActive(false);
         
         collisionCount++;
+        print(collisionCount);
         
         print(collisionCount);
     }

@@ -15,7 +15,7 @@ public class EnemySpawner : MonoBehaviour
     private Vector3 spawnVec = new Vector3(0,0,0);
 
     [SerializeField]
-    private float spawnDistance = 10f;
+    private float spawnDistance = 6.5f;
     
     [SerializeField]
     private double maxEnemyCount = 0d;

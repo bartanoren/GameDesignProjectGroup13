@@ -332,7 +332,7 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 1.2
+  WalkSpeed: 1
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
@@ -356,8 +356,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 100
   Invulnerable: 0
-  InitialHealth: 100
-  MaximumHealth: 100
+  InitialHealth: 75
+  MaximumHealth: 75
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 0}

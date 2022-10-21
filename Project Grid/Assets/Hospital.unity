@@ -13175,8 +13175,8 @@ MonoBehaviour:
   RequiresPlayerType: 1
   RequiresButtonActivationAbility: 1
   Activable: 1
-  AutoActivation: 0
-  AutoActivationDelay: 0
+  AutoActivation: 1
+  AutoActivationDelay: 2
   AutoActivationDelayResetsOnExit: 1
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
@@ -22389,7 +22389,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.4999999, y: 1}
+    m_SensorSize: {x: 1.5223643, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
