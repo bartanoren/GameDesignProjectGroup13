@@ -125,15 +125,11 @@ GameObject:
   - component: {fileID: 1799978647051978131}
   - component: {fileID: 1799978647051978128}
   - component: {fileID: 1799978647051978129}
-  - component: {fileID: 1799978647051978134}
   - component: {fileID: 2248517531303654339}
   - component: {fileID: 1364509149036074148}
-  - component: {fileID: 7863841549866234869}
-  - component: {fileID: 1799978647051978135}
   - component: {fileID: 1799978647051978133}
   - component: {fileID: 1799978647051978138}
   - component: {fileID: 1799978647051978139}
-  - component: {fileID: 1430301004}
   - component: {fileID: 7629990652479939360}
   m_Layer: 13
   m_Name: RunningAwayNurse
@@ -151,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 1799978647051978137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.9, y: -3.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.98795974, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1799978645805962797}
@@ -370,7 +366,7 @@ MonoBehaviour:
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
-  DestroyOnDeath: 1
+  DestroyOnDeath: 0
   DelayBeforeDestruction: 0
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
@@ -475,20 +471,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
---- !u!114 &1799978647051978134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799978647051978137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561ab803e1e9aa94ab096724696e5475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationMode: 0
-  Label: 
 --- !u!114 &2248517531303654339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,36 +512,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 33088
   ObstaclesCheckFrequency: 1
---- !u!114 &7863841549866234869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799978647051978137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 106a6eefe87deeb4dbbc38dba65826dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationMode: 0
-  Label: 
-  MaximumDistance: 5
---- !u!114 &1799978647051978135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799978647051978137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47557c9dd44293a41bc6710b083332de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationMode: 0
-  Label: 
-  MinimumDistance: 0.01
 --- !u!114 &1799978647051978133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,33 +749,6 @@ MonoBehaviour:
   DisplayDurationOnHit: 1.5
   HideBarAtZero: 1
   HideBarAtZeroDelay: 0.6
---- !u!114 &1430301004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799978647051978137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a31b244c37658fa4197a240b64a28603, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BoundWeaponIK: {fileID: 0}
-  DetachLeftHand: 0
-  DetachRightHand: 0
-  DisableAimWeaponModelAtTargetDuringStun: 0
-  WeaponModels: []
-  StunButton: 0
-  ExitStunButton: 0
 --- !u!114 &7629990652479939360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +764,29 @@ MonoBehaviour:
   CycleOption: 1
   LoopInitialMovementDirection: 0
   PathElements:
-  - PathElementPosition: {x: 0, y: 0, z: 0}
+  - PathElementPosition: {x: 1.3574142, y: -0.009841919, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.3401489, y: 2.1656961, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -6.061554, y: 2.2569366, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -6.127178, y: -5.193227, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 8.776726, y: -5.16753, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 8.725327, y: 2.1816342, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.568882, y: 2.544075, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.3534851, y: 9.409962, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 8.648247, y: 9.428012, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 8.829742, y: -5.1829586, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.1612549, y: -5.2283344, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.2293167, y: -2.052036, z: 0}
     Delay: 0
   ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 0
