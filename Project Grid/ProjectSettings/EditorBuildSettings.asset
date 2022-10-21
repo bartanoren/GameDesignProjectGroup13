@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/OpeningScreen.unity
     guid: 111bda3f974e61b48990764b83a73eed
   - enabled: 1
-    path: Assets/Third party/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
-    guid: 888394d52616e5e42b3b54c3f2bbd3eb
+    path: Assets/Hospital.unity
+    guid: b0a5ddef7eae29240bca4110d32916cc
   - enabled: 1
     path: Assets/Game.unity
     guid: 051c53b422f25e841bed880a36cc2ebe
+  - enabled: 1
+    path: Assets/Third party/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    guid: 888394d52616e5e42b3b54c3f2bbd3eb
   m_configObjects: {}

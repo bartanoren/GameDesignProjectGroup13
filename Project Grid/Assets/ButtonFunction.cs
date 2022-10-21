@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using MoreMountains.Tools;
 
 public class ButtonFunction : MonoBehaviour
 {
     public void playbutton() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        MMSceneLoadingManager.LoadScene("Hospital", "LoadingScreen");
     }
     public void quitbutton() {
         Application.Quit();
