@@ -37,6 +37,7 @@ public class DarknessSpawner : MonoBehaviour
     {
         if (!spawnerEnabled)
         {
+            print("darkness spawner enabled");
             spawnerEnabled = true;
             StartCoroutine(spawnEnemy(InitialInterval, spawnerPrefab, maxEnemyCount));
         }

@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2304921794639761098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.167, y: -0.007, z: 0}
+  m_LocalPosition: {x: 0.12, y: -0.007, z: 0}
   m_LocalScale: {x: 0.038276758, y: 0.038276758, z: 0.038276758}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -146,7 +146,7 @@ MonoBehaviour:
   MagazineBased: 1
   MagazineSize: 13
   AutoReload: 1
-  NoInputReload: 0
+  NoInputReload: 1
   ReloadTime: 0.8
   AmmoConsumedPerShot: 1
   AutoDestroyWhenEmpty: 0
@@ -226,10 +226,10 @@ MonoBehaviour:
   ReplaceMousePointer: 1
   MouseDeadZoneRadius: 0.5
   DisplayReticle: 1
-  MoveCameraTargetTowardsReticle: 0
+  MoveCameraTargetTowardsReticle: 1
   CameraTargetOffset: 0.3
-  CameraTargetMaxDistance: 10
-  CameraTargetSpeed: 5
+  CameraTargetMaxDistance: 1.2
+  CameraTargetSpeed: 4
 --- !u!114 &901586681407601870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +247,7 @@ MonoBehaviour:
   NestUnderThis: 0
   GameObjectToPool: {fileID: 1579859513670320, guid: 957adcd9174d8114393d80a333468d66,
     type: 3}
-  PoolSize: 20
+  PoolSize: 13
   PoolCanExpand: 1
 --- !u!1 &7347038549908043095
 GameObject:

@@ -31,12 +31,15 @@ public class EnemySpawner : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (!spawnerEnabled)
+        if (collider.CompareTag("Player") ) 
         {
-            spawnerEnabled = true;
-            StartCoroutine(spawnEnemy(spawnerInterval, spawnerPrefab, maxEnemyCount));
+            if (!spawnerEnabled)
+            {
+                spawnerEnabled = true;
+                StartCoroutine(spawnEnemy(spawnerInterval, spawnerPrefab, maxEnemyCount));
+            }
         }
     }
 

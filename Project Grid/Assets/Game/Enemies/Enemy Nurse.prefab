@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 7194663849458272264}
   - component: {fileID: 7194663849458272263}
   - component: {fileID: 7194663849458272262}
+  - component: {fileID: 5933575915708148813}
   m_Layer: 13
   m_Name: Enemy Nurse
   m_TagString: Untagged
@@ -331,10 +332,10 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 1.2
+  WalkSpeed: 0.7
   ShouldSetMovement: 1
   IdleThreshold: 0.05
-  Acceleration: 10
+  Acceleration: 7
   Deceleration: 10
   InterpolateMovementSpeed: 0
   WalkParticles: []
@@ -402,7 +403,7 @@ MonoBehaviour:
   - StateName: Detecting
     Actions:
       array:
-      - {fileID: 7194663849458272267}
+      - {fileID: 5933575915708148813}
     Transitions:
       array:
       - Decision: {fileID: 7194663849458272269}
@@ -452,7 +453,7 @@ MonoBehaviour:
   ObstacleDetection: 1
   ObstacleMask:
     serializedVersion: 2
-    m_Bits: 33024
+    m_Bits: 33088
   ObstaclesDetectionMode: 0
   CanTargetSelf: 0
   TargetCheckFrequency: 1
@@ -736,3 +737,25 @@ MonoBehaviour:
   DisplayDurationOnHit: 1.5
   HideBarAtZero: 1
   HideBarAtZeroDelay: 0.6
+--- !u!114 &5933575915708148813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194663849458272260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8135bf55f3495254099bc5daee8423d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: 
+  MaximumDurationInADirection: 2
+  ObstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  ObstaclesDetectionDistance: 1
+  ObstaclesCheckFrequency: 0
+  MinimumRandomDirection: {x: -1, y: -1}
+  MaximumRandomDirection: {x: 1, y: 1}
