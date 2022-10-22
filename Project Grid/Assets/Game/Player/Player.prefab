@@ -634,7 +634,7 @@ MonoBehaviour:
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
   DestroyOnDeath: 0
-  DelayBeforeDestruction: 2
+  DelayBeforeDestruction: 1.5
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 1
   DisableControllerOnDeath: 1
@@ -1207,7 +1207,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000e9f72b6bdfb2e38817358f5f9f97d30259625239
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0

@@ -123,8 +123,8 @@ MonoBehaviour:
         TargetGameObject: {fileID: 0}
         SetStateOnInit: 0
         StateOnInit: 1
-        SetStateOnPlay: 0
-        StateOnPlay: 1
+        SetStateOnPlay: 1
+        StateOnPlay: 0
         SetStateOnStop: 0
         StateOnStop: 1
         SetStateOnReset: 0
@@ -256,13 +256,13 @@ GameObject:
   - component: {fileID: 1799978647051978131}
   - component: {fileID: 1799978647051978128}
   - component: {fileID: 1799978647051978129}
-  - component: {fileID: 2248517531303654339}
   - component: {fileID: 1364509149036074148}
   - component: {fileID: 1799978647051978133}
   - component: {fileID: 1799978647051978138}
   - component: {fileID: 1799978647051978139}
   - component: {fileID: 7629990652479939360}
   - component: {fileID: 5186389529480247460}
+  - component: {fileID: 1533877622}
   m_Layer: 13
   m_Name: RunningAwayNurse
   m_TagString: Untagged
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gravity: -30
-  GravityActive: 1
+  GravityActive: 0
   CrouchedRaycastLengthMultiplier: 1
   PerformCardinalObstacleRaycastDetection: 0
   Speed: {x: 0, y: 0, z: 0}
@@ -499,8 +499,8 @@ MonoBehaviour:
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
-  DestroyOnDeath: 0
-  DelayBeforeDestruction: 0
+  DestroyOnDeath: 1
+  DelayBeforeDestruction: 0.5
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
   DisableControllerOnDeath: 1
@@ -511,7 +511,7 @@ MonoBehaviour:
   ChangeLayersRecursivelyOnDeath: 0
   LayerOnDeath:
     _layerIndex: 0
-  DeathMMFeedbacks: {fileID: 0}
+  DeathMMFeedbacks: {fileID: 6931674175171135481}
   ResetColorOnRevive: 1
   ColorMaterialPropertyName: _Color
   UseMaterialPropertyBlocks: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 2.3
+  Radius: 2.33
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -586,10 +586,10 @@ MonoBehaviour:
   ObstacleDetection: 1
   ObstacleMask:
     serializedVersion: 2
-    m_Bits: 33024
-  ObstaclesDetectionMode: 0
+    m_Bits: 0
+  ObstaclesDetectionMode: 1
   CanTargetSelf: 0
-  TargetCheckFrequency: 1
+  TargetCheckFrequency: 1.2
   OverlapMaximum: 10
 --- !u!114 &1799978647051978129
 MonoBehaviour:
@@ -604,28 +604,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
---- !u!114 &2248517531303654339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799978647051978137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8135bf55f3495254099bc5daee8423d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationMode: 0
-  Label: 
-  MaximumDurationInADirection: 2
-  ObstacleLayerMask:
-    serializedVersion: 2
-    m_Bits: 33088
-  ObstaclesDetectionDistance: 0.5
-  ObstaclesCheckFrequency: 0
-  MinimumRandomDirection: {x: -1, y: -1}
-  MaximumRandomDirection: {x: 1, y: 1}
 --- !u!114 &1364509149036074148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,11 +618,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitializationMode: 0
   Label: 
-  ChangeDirectionOnObstacle: 1
+  ChangeDirectionOnObstacle: 0
   ObstaclesLayerMask:
     serializedVersion: 2
     m_Bits: 33088
-  ObstaclesCheckFrequency: 1
+  ObstaclesCheckFrequency: 0.3
 --- !u!114 &1799978647051978133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,29 +875,83 @@ MonoBehaviour:
   CycleOption: 1
   LoopInitialMovementDirection: 0
   PathElements:
-  - PathElementPosition: {x: 1.3574142, y: -0.009841919, z: 0}
+  - PathElementPosition: {x: 0.17661667, y: 0.022745848, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 1.3401489, y: 2.1656961, z: 0}
+  - PathElementPosition: {x: 1.2836685, y: 0.4950422, z: 0}
     Delay: 0
-  - PathElementPosition: {x: -6.061554, y: 2.2569366, z: 0}
+  - PathElementPosition: {x: 1.2861595, y: 4.1626883, z: 0}
     Delay: 0
-  - PathElementPosition: {x: -6.127178, y: -5.193227, z: 0}
+  - PathElementPosition: {x: 7.5160904, y: 4.213858, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 8.776726, y: -5.16753, z: 0}
+  - PathElementPosition: {x: 7.618431, y: 5.68499, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 8.725327, y: 2.1816342, z: 0}
+  - PathElementPosition: {x: 2.271183, y: 5.68499, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 1.568882, y: 2.544075, z: 0}
+  - PathElementPosition: {x: 3.691143, y: 8.358612, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 1.3534851, y: 9.409962, z: 0}
+  - PathElementPosition: {x: 7.0171814, y: 8.39699, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 8.648247, y: 9.428012, z: 0}
+  - PathElementPosition: {x: 7.477707, y: 6.7979336, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 8.829742, y: -5.1829586, z: 0}
+  - PathElementPosition: {x: 8.616234, y: 6.7979336, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 1.1612549, y: -5.2283344, z: 0}
+  - PathElementPosition: {x: 8.680191, y: 9.420386, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 1.2293167, y: -2.052036, z: 0}
+  - PathElementPosition: {x: 1.3245277, y: 9.445972, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.1966019, y: 7.949256, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -1.8479996, y: 7.539898, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -3.536602, y: 6.618842, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -4.7135086, y: 8.128351, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -4.7007217, y: 9.382011, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -6.1590652, y: 9.433182, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -6.197441, y: 4.495295, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -0.72227097, y: 5.518691, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -0.811821, y: 3.7149553, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -6.197445, y: 4.4825025, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -6.1462746, y: 2.1926532, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -2.5004234, y: 2.1926532, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -2.5002098, y: -1.0028591, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -5.0881577, y: -1.1068974, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -5.1661873, y: -2.5764372, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -4.0737877, y: -2.9925897, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: -4.1778297, y: -5.177392, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.3231926, y: -5.2554207, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 1.3101845, y: -3.2526848, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 2.402584, y: -3.23968, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 2.532631, y: -2.0822551, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 5.120579, y: -2.1082647, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 5.1986046, y: -4.2670574, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 7.3443985, y: -4.2670574, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 7.3574066, y: 1.168939, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 4.223255, y: 0.9348531, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 3.8331146, y: -0.28759575, z: 0}
     Delay: 0
   ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 0
@@ -941,3 +973,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitializationMode: 0
   Label: 
+--- !u!114 &1533877622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799978647051978137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13714c8ccb3bbdf4e818f13da2e69eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RefillMode: 1
+  CooldownAfterHit: 4
+  RefillHealth: 1
+  HealthPerSecond: 2
+  HealthPerBurst: 3
+  DurationBetweenBursts: 3
