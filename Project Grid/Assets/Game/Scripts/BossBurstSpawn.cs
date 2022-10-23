@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour
+public class BossBurstSpawn : MonoBehaviour
 {
-
-    [Header("Prefab")]
     [SerializeField]
     private GameObject spawnerPrefab;
 
@@ -16,9 +14,9 @@ public class EnemySpawner : MonoBehaviour
 
     [SerializeField]
     private float spawnDistance = 6.5f;
-    
+
     [SerializeField]
-    private double maxEnemyCount = 0d;
+    private float burstCount = 5f;
 
     private bool spawnerEnabled = false;
 
@@ -26,8 +24,6 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         spawnVec = transform.position;
-
-        
     }
 
 
@@ -38,7 +34,7 @@ public class EnemySpawner : MonoBehaviour
             if (!spawnerEnabled)
             {
                 spawnerEnabled = true;
-                StartCoroutine(spawnEnemy(spawnerInterval, spawnerPrefab, maxEnemyCount));
+                StartCoroutine(spawnEnemy(spawnerInterval, spawnerPrefab, burstCount));
             }
         }
     }
@@ -47,15 +43,18 @@ public class EnemySpawner : MonoBehaviour
     //TODO: ad ontrigger exit to destroy all enemies in this room and also destroy the spawner
 
 
-    private IEnumerator spawnEnemy(float interval, GameObject enemy, double count)
+    private IEnumerator spawnEnemy(float interval, GameObject enemy, float count)
     {
-        if (count > 0){
-            yield return new WaitForSeconds(interval);
+        
+        yield return new WaitForSeconds(interval);
+        for (int i = 0, i < count, i++)
+        {
             GameObject newEnemy = Instantiate(enemy, spawnVec + new Vector3(Random.Range(-1 * spawnDistance, spawnDistance), 
             Random.Range(-1 * spawnDistance, spawnDistance), 0) , Quaternion.identity);
-            count--;
-            StartCoroutine(spawnEnemy(interval, enemy, count));
-        }
+        }  
+        
+        StartCoroutine(spawnEnemy(interval, enemy, count));
+        
         
     }
 }
