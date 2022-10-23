@@ -319,7 +319,6 @@ GameObject:
   - component: {fileID: 1691403801846309793}
   - component: {fileID: 765771913213143246}
   - component: {fileID: 6811952059820491769}
-  - component: {fileID: 4498903634095815897}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -941,33 +940,6 @@ MonoBehaviour:
   HealthPerSecond: 0
   HealthPerBurst: 10
   DurationBetweenBursts: 2
---- !u!114 &4498903634095815897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691403801846309809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a31b244c37658fa4197a240b64a28603, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BoundWeaponIK: {fileID: 0}
-  DetachLeftHand: 0
-  DetachRightHand: 0
-  DisableAimWeaponModelAtTargetDuringStun: 0
-  WeaponModels: []
-  StunButton: 0
-  ExitStunButton: 0
 --- !u!1 &4908245395032202998
 GameObject:
   m_ObjectHideFlags: 0
