@@ -13204,7 +13204,7 @@ MonoBehaviour:
   RequiresButtonActivationAbility: 1
   Activable: 1
   AutoActivation: 1
-  AutoActivationDelay: 2
+  AutoActivationDelay: 1
   AutoActivationDelayResetsOnExit: 1
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
@@ -15654,7 +15654,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0021586418, y: 0.064754784}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0.21, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15665,7 +15665,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.36, y: 0.23}
+  m_Size: {x: 0.6147032, y: 0.3595096}
   m_EdgeRadius: 0
 --- !u!1 &982692434
 GameObject:
@@ -22502,7 +22502,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1226995, y: 1}
+    m_SensorSize: {x: 1.841503, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

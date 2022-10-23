@@ -47,12 +47,12 @@ public class BossBurstSpawn : MonoBehaviour
     {
         
         yield return new WaitForSeconds(interval);
-        for (int i = 0, i < count, i++)
+        for (int i = 0; i < Random.Range(0, count); i++)
         {
             GameObject newEnemy = Instantiate(enemy, spawnVec + new Vector3(Random.Range(-1 * spawnDistance, spawnDistance), 
             Random.Range(-1 * spawnDistance, spawnDistance), 0) , Quaternion.identity);
         }  
-        
+
         StartCoroutine(spawnEnemy(interval, enemy, count));
         
         

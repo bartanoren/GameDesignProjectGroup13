@@ -17,7 +17,6 @@ public class TorchOptimiser : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        print("enter torch");
         if (!childActive && collider.CompareTag("Player") )
         {
             torchLight.SetActive(true);
@@ -27,7 +26,6 @@ public class TorchOptimiser : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        print("left torch");
         if (collider.CompareTag("Player"))
         {
             torchLight.SetActive(false);
