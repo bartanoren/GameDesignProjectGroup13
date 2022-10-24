@@ -205,7 +205,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -158837723, guid: 04b5a2e3512a7ce4ea55bb7e40d45be8, type: 3}
+  m_Sprite: {fileID: -1422766847, guid: b1a5838a1d7849a44bf80a43f6855398, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -226,7 +226,7 @@ Animator:
   m_GameObject: {fileID: 1799978645805962770}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 267d7b392cc09bf4387921b0800acdf3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 385eb4463712f724184c874dce96e873, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -465,7 +465,7 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 1.2
+  WalkSpeed: 1.4
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
@@ -489,8 +489,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 100
   Invulnerable: 0
-  InitialHealth: 100
-  MaximumHealth: 100
+  InitialHealth: 150
+  MaximumHealth: 150
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 0}
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 2.33
+  Radius: 3.6
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2

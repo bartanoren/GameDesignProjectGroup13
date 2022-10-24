@@ -13,7 +13,7 @@ public class PressurePlate : MonoBehaviour
     [SerializeField]
     public GameObject currentPlate;
 
-    public static int collisionCount = 3;
+    public static int collisionCount;
 
     private Collider2D m_Collider;
 
@@ -30,10 +30,10 @@ public class PressurePlate : MonoBehaviour
 
         light.SetActive(false);
         
+        collisionCount = 4;
         //collisionCount++;
         print(collisionCount);
         
-        print(collisionCount);
     }
         
 
