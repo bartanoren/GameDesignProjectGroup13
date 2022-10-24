@@ -14410,7 +14410,7 @@ MonoBehaviour:
   BoxesFollowZone: 1
   CanMoveWhileTalking: 1
   ButtonHandled: 1
-  MessageDuration: 3
+  MessageDuration: 3.5
   ActivableMoreThanOnce: 0
   InactiveTime: 2
   Dialogue:
@@ -22502,7 +22502,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.841503, y: 1}
+    m_SensorSize: {x: 1.3293943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
