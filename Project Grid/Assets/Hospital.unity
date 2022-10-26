@@ -14424,7 +14424,8 @@ MonoBehaviour:
   - DialogueLine: '"I hearby agree that Doctor Furcht will not be responsible...'
   - DialogueLine: for any physical or psychological harm that I experience during
       the treatment"
-  - DialogueLine: I am sure you will overcome all your fears!
+  - DialogueLine: I am sure you will overcome all your fears...
+  - DialogueLine: Your fear of falling, darkness, blood, needles and spiders!
   - DialogueLine: 'Please enter the machine on your right and prepare yourself for
       an advanture. '
 --- !u!61 &822658622
@@ -22502,7 +22503,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8022872, y: 1}
+    m_SensorSize: {x: 1.4446228, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
