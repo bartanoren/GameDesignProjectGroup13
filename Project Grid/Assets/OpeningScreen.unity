@@ -324,7 +324,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1396321158}
         m_TargetAssemblyTypeName: ButtonFunction, Assembly-CSharp
-        m_MethodName: playbutton
+        m_MethodName: HardButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -727,7 +727,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1396321158}
         m_TargetAssemblyTypeName: ButtonFunction, Assembly-CSharp
-        m_MethodName: playbutton
+        m_MethodName: NormalButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
