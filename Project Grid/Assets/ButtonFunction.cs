@@ -5,8 +5,11 @@ using MoreMountains.Tools;
 
 public class ButtonFunction : MonoBehaviour
 {
-    public void playbutton() {
+    public void NormalButton() {
         MMSceneLoadingManager.LoadScene("Hospital", "LoadingScreen");
+    }
+    public void HardButton() {
+        MMSceneLoadingManager.LoadScene("Hospital_hard", "LoadingScreen");
     }
     public void quitbutton() {
         Application.Quit();
