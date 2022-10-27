@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Third party/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/HARD GAME/Game_hard.unity
+    guid: 6b2a204858b99204096811d53a7dfde6
+  - enabled: 1
+    path: Assets/HARD GAME/Hospital_hard.unity
+    guid: 8abc3eebada46784fb9335e99b7fb8bf
   m_configObjects: {}
