@@ -10160,7 +10160,7 @@ MonoBehaviour:
   FaceDirection: 1
   FaceMovement: 0
   MovementVector: 0
-  Speed: 300
+  Speed: 100
   Acceleration: 0
   Direction: {x: 0, y: 0, z: 0}
   DirectionCanBeChangedBySpawner: 1
