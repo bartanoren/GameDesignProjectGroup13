@@ -15,8 +15,6 @@ namespace MoreMountains.TopDownEngine
 		[Tooltip("the layers that will be stunned by this object")]
 		public LayerMask TargetLayerMask;
 
-		public float StunDuration = 2f;
-
 		protected Character _character;
 		protected CharacterStun _characterStun;
         

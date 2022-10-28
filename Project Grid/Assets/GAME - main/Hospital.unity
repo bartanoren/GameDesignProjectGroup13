@@ -13296,7 +13296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mode: 0
-  VirtualCamera: {fileID: 0}
+  VirtualCamera: {fileID: 1836299313}
   Confiner: {fileID: 0}
   CinemachineCameraConfiner: {fileID: 0}
   ResizeConfinerAutomatically: 1
@@ -22503,7 +22503,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.927676, y: 1}
+    m_SensorSize: {x: 1.2007772, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -23419,7 +23419,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   gun: {fileID: 0}
-  flashlight: {fileID: 0}
 --- !u!1 &1929194182
 GameObject:
   m_ObjectHideFlags: 0

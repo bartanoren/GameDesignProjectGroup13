@@ -12,8 +12,8 @@ public class GrantWeapons : MonoBehaviour
     {
         player = collider.gameObject;
 
-        gun = player.transform.GetChild(3).gameObject;
-        flashlight = player.transform.GetChild(4).gameObject;
+        gun = player.transform.GetChild(5).gameObject;
+        flashlight = player.transform.GetChild(6).gameObject;
 
         gun.SetActive(true);
         flashlight.SetActive(true);
