@@ -14250,7 +14250,7 @@ GameObject:
   - component: {fileID: 817993418}
   - component: {fileID: 817993417}
   m_Layer: 8
-  m_Name: RemoveAudio
+  m_Name: StartAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22503,7 +22503,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2007772, y: 1}
+    m_SensorSize: {x: 1.9238477, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

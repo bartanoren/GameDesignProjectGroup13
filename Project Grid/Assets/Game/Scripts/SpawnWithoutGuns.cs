@@ -15,7 +15,7 @@ public class SpawnWithoutGuns : MonoBehaviour
         player = collider.gameObject;
         print(player);
 
-        gun = player.transform.GetChild(5).gameObject;
+        gun = player.transform.GetChild(6).gameObject;
         //flashlight = player.transform.GetChild(6).gameObject;
 
         gun.GetComponent<WeaponAim2D>().RemoveReticle();

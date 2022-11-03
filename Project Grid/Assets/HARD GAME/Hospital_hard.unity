@@ -11932,12 +11932,12 @@ PrefabInstance:
     - target: {fileID: 2807950071344613397, guid: ebf67f728e4184b42bd71d26cbe9fe85,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.75
+      value: -31.13
       objectReference: {fileID: 0}
     - target: {fileID: 2807950071344613397, guid: ebf67f728e4184b42bd71d26cbe9fe85,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.4
+      value: 38.18
       objectReference: {fileID: 0}
     - target: {fileID: 2807950071344613397, guid: ebf67f728e4184b42bd71d26cbe9fe85,
         type: 3}
@@ -15483,7 +15483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerPrefabs:
-  - {fileID: 1691403801846309795, guid: a14db733e1fee1745807f87dcd66a3b4, type: 3}
+  - {fileID: 1691403801846309795, guid: 22ef76f3cd91f5d43851f1a1e649a4c4, type: 3}
   AutoAttributePlayerIDs: 1
   SceneCharacters: []
   InitialSpawnPoint: {fileID: 247793703}
@@ -22503,7 +22503,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.927676, y: 1}
+    m_SensorSize: {x: 1.9238477, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -23419,7 +23419,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   gun: {fileID: 0}
-  flashlight: {fileID: 0}
 --- !u!1 &1929194182
 GameObject:
   m_ObjectHideFlags: 0
